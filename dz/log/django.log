@@ -1,0 +1,159 @@
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Python_django\lection\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2220
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix HTTP/1.1" 301 0
+"GET /prefix/ HTTP/1.1" 200 13
+"GET /prefix/ HTTP/1.1" 200 13
+D:\Python_django\lection\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 13
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\Python_django\lection\myproject\myapp\views.py", line 17, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\Python_django\lection\myproject\myapp\views.py", line 17, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+D:\Python_django\lection\myproject\myproject\settings.py changed, reloading.
+INFO 2023-08-27 15:24:06,451 autoreload 16944 7408 Watching for file changes with StatReloader
+ERROR 2023-08-27 15:24:10,390 views 16944 2428 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\Python_django\lection\myproject\myapp\views.py", line 17, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+INFO 2023-08-27 15:24:10,393 basehttp 16944 2428 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2023-08-27 15:24:11,537 views 16944 17440 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\Python_django\lection\myproject\myapp\views.py", line 17, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+INFO 2023-08-27 15:24:11,539 basehttp 16944 17440 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-08-27 15:24:14,467 views 16944 2428 Index page accessed
+INFO 2023-08-27 15:24:14,469 basehttp 16944 2428 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2023-08-27 15:24:14,571 views 16944 17440 Index page accessed
+INFO 2023-08-27 15:24:14,574 basehttp 16944 17440 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2023-09-03 14:16:39,730 autoreload 708 8320 Watching for file changes with StatReloader
+INFO 2023-09-03 14:17:28,278 autoreload 708 8320 D:\Python_django\dz\myapp\views.py changed, reloading.
+INFO 2023-09-03 14:17:30,016 autoreload 5296 1364 Watching for file changes with StatReloader
+WARNING 2023-09-03 14:17:30,628 log 5296 17520 Not Found: /heads/
+WARNING 2023-09-03 14:17:30,631 basehttp 5296 17520 "GET /heads/ HTTP/1.1" 404 2205
+WARNING 2023-09-03 14:17:32,087 log 5296 16156 Not Found: /heads/
+WARNING 2023-09-03 14:17:32,090 basehttp 5296 16156 "GET /heads/ HTTP/1.1" 404 2205
+WARNING 2023-09-03 14:17:33,794 log 5296 19268 Not Found: /
+WARNING 2023-09-03 14:17:33,796 basehttp 5296 19268 "GET / HTTP/1.1" 404 2169
+WARNING 2023-09-03 14:17:34,081 log 5296 16156 Not Found: /
+WARNING 2023-09-03 14:17:34,084 basehttp 5296 16156 "GET / HTTP/1.1" 404 2169
+INFO 2023-09-03 14:17:50,835 autoreload 5296 1364 D:\Python_django\dz\myproject\urls.py changed, reloading.
+INFO 2023-09-03 14:17:52,174 autoreload 14048 10312 Watching for file changes with StatReloader
+INFO 2023-09-03 14:17:56,176 views 14048 4672 Index page accessed
+INFO 2023-09-03 14:17:56,180 basehttp 14048 4672 "GET / HTTP/1.1" 200 13
+INFO 2023-09-03 14:17:56,312 views 14048 9516 Index page accessed
+INFO 2023-09-03 14:17:56,319 basehttp 14048 9516 "GET / HTTP/1.1" 200 13
+INFO 2023-09-03 16:58:44,478 autoreload 19928 17992 Watching for file changes with StatReloader
+INFO 2023-09-03 16:58:48,544 views 19928 20160 Index page accessed
+INFO 2023-09-03 16:58:48,554 basehttp 19928 20160 "GET / HTTP/1.1" 200 13
+INFO 2023-09-03 16:58:50,003 views 19928 1320 Index page accessed
+INFO 2023-09-03 16:58:50,005 basehttp 19928 1320 "GET / HTTP/1.1" 200 13
+INFO 2023-09-03 16:58:56,494 basehttp 19928 7792 "GET /about HTTP/1.1" 301 0
+DEBUG 2023-09-03 16:58:56,526 views 19928 7420 About page accessed
+INFO 2023-09-03 16:58:56,527 basehttp 19928 7420 "GET /about/ HTTP/1.1" 200 23
+DEBUG 2023-09-03 16:58:56,642 views 19928 14948 About page accessed
+INFO 2023-09-03 16:58:56,647 basehttp 19928 14948 "GET /about/ HTTP/1.1" 200 23

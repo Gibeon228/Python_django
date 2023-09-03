@@ -1,0 +1,33 @@
+INFO 2023-09-03 12:59:22,902 autoreload 19152 17284 Watching for file changes with StatReloader
+INFO 2023-09-03 12:59:33,119 basehttp 19152 19504 "GET /cube/ HTTP/1.1" 200 1
+INFO 2023-09-03 12:59:34,871 basehttp 19152 16904 "GET /cube/ HTTP/1.1" 200 1
+INFO 2023-09-03 13:01:26,460 autoreload 19152 17284 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:01:31,332 autoreload 280 20216 Watching for file changes with StatReloader
+INFO 2023-09-03 13:01:34,924 autoreload 280 20216 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:01:37,595 autoreload 4012 17480 Watching for file changes with StatReloader
+INFO 2023-09-03 13:01:42,278 autoreload 4012 17480 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:01:44,377 autoreload 18584 8348 Watching for file changes with StatReloader
+INFO 2023-09-03 13:02:04,370 autoreload 18584 8348 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:02:06,621 autoreload 10608 17892 Watching for file changes with StatReloader
+INFO 2023-09-03 13:02:09,160 autoreload 10608 17892 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:02:10,739 autoreload 10744 16048 Watching for file changes with StatReloader
+INFO 2023-09-03 13:02:24,770 autoreload 10744 16048 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:02:26,834 autoreload 18868 1504 Watching for file changes with StatReloader
+INFO 2023-09-03 13:02:33,041 autoreload 18868 1504 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:02:35,182 autoreload 17428 19172 Watching for file changes with StatReloader
+INFO 2023-09-03 13:02:39,391 autoreload 17428 19172 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:02:41,911 autoreload 12808 17984 Watching for file changes with StatReloader
+INFO 2023-09-03 13:02:59,383 views 12808 6964 Результат: TAILS
+INFO 2023-09-03 13:02:59,388 basehttp 12808 6964 "GET /heads/ HTTP/1.1" 200 5
+INFO 2023-09-03 13:03:00,020 views 12808 10032 Результат: TAILS
+INFO 2023-09-03 13:03:00,024 basehttp 12808 10032 "GET /heads/ HTTP/1.1" 200 5
+INFO 2023-09-03 13:04:06,916 autoreload 12808 17984 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:04:10,162 autoreload 14704 8056 Watching for file changes with StatReloader
+INFO 2023-09-03 13:16:34,431 autoreload 14704 8056 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:16:37,245 autoreload 18812 18560 Watching for file changes with StatReloader
+INFO 2023-09-03 13:16:50,664 autoreload 18812 18560 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:16:51,684 autoreload 13060 16560 Watching for file changes with StatReloader
+INFO 2023-09-03 13:17:04,110 autoreload 13060 16560 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:17:05,010 autoreload 17532 17136 Watching for file changes with StatReloader
+INFO 2023-09-03 13:18:48,427 autoreload 17532 17136 D:\Python_django\seminars\seminar01\my_app\views.py changed, reloading.
+INFO 2023-09-03 13:18:53,788 autoreload 12264 13816 Watching for file changes with StatReloader
