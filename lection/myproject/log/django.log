@@ -133,3 +133,24 @@ INFO 2023-08-27 15:24:14,574 basehttp 16944 17440 "GET /prefix/ HTTP/1.1" 200 13
 INFO 2023-09-03 15:00:03,838 autoreload 3068 19852 Watching for file changes with StatReloader
 INFO 2023-09-03 15:01:31,918 autoreload 128 18824 Watching for file changes with StatReloader
 INFO 2023-09-03 15:32:37,976 autoreload 17508 4796 Watching for file changes with StatReloader
+INFO 2023-09-03 17:52:03,345 autoreload 19808 13488 Watching for file changes with StatReloader
+WARNING 2023-09-03 17:52:07,992 log 19808 4792 Not Found: /
+WARNING 2023-09-03 17:52:08,019 basehttp 19808 4792 "GET / HTTP/1.1" 404 2169
+WARNING 2023-09-03 17:52:08,563 log 19808 8008 Not Found: /
+WARNING 2023-09-03 17:52:08,566 basehttp 19808 8008 "GET / HTTP/1.1" 404 2169
+WARNING 2023-09-03 17:52:10,159 log 19808 8008 Not Found: /about/
+WARNING 2023-09-03 17:52:10,169 basehttp 19808 8008 "GET /about/ HTTP/1.1" 404 2205
+WARNING 2023-09-03 17:52:17,156 log 19808 13988 Not Found: /
+WARNING 2023-09-03 17:52:17,158 basehttp 19808 13988 "GET / HTTP/1.1" 404 2169
+WARNING 2023-09-03 17:52:17,338 log 19808 15976 Not Found: /
+WARNING 2023-09-03 17:52:17,342 basehttp 19808 15976 "GET / HTTP/1.1" 404 2169
+INFO 2023-09-03 17:54:34,225 autoreload 4388 19620 Watching for file changes with StatReloader
+INFO 2023-09-03 17:56:56,059 autoreload 17544 18364 Watching for file changes with StatReloader
+INFO 2023-09-03 17:57:30,819 autoreload 11364 10880 Watching for file changes with StatReloader
+INFO 2023-09-03 17:59:48,591 autoreload 17404 3056 Watching for file changes with StatReloader
+INFO 2023-09-03 18:26:03,057 autoreload 12620 19060 Watching for file changes with StatReloader
+INFO 2023-09-03 18:29:57,196 autoreload 4340 19148 Watching for file changes with StatReloader
+INFO 2023-09-03 18:48:02,148 autoreload 19500 9124 Watching for file changes with StatReloader
+INFO 2023-09-03 18:48:34,385 autoreload 15560 15832 Watching for file changes with StatReloader
+INFO 2023-09-03 18:58:31,269 autoreload 9036 8124 Watching for file changes with StatReloader
+INFO 2023-09-03 18:59:30,614 autoreload 16856 19100 Watching for file changes with StatReloader
