@@ -154,3 +154,539 @@ INFO 2023-09-03 18:48:02,148 autoreload 19500 9124 Watching for file changes wit
 INFO 2023-09-03 18:48:34,385 autoreload 15560 15832 Watching for file changes with StatReloader
 INFO 2023-09-03 18:58:31,269 autoreload 9036 8124 Watching for file changes with StatReloader
 INFO 2023-09-03 18:59:30,614 autoreload 16856 19100 Watching for file changes with StatReloader
+INFO 2023-09-09 19:08:41,955 autoreload 19500 26440 Watching for file changes with StatReloader
+INFO 2023-09-09 19:09:28,480 autoreload 19500 26440 D:\Python_django\lection\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-09 19:09:41,055 autoreload 25096 28872 Watching for file changes with StatReloader
+INFO 2023-09-09 19:09:49,507 autoreload 25096 28872 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 19:09:50,863 autoreload 13464 14576 Watching for file changes with StatReloader
+WARNING 2023-09-09 19:09:58,587 log 13464 3664 Not Found: /
+WARNING 2023-09-09 19:09:58,598 basehttp 13464 3664 "GET / HTTP/1.1" 404 2274
+WARNING 2023-09-09 19:10:02,260 log 13464 13060 Not Found: /
+WARNING 2023-09-09 19:10:02,273 basehttp 13464 13060 "GET / HTTP/1.1" 404 2274
+WARNING 2023-09-09 19:10:02,278 log 13464 2504 Not Found: /favicon.ico
+WARNING 2023-09-09 19:10:02,279 basehttp 13464 2504 "GET /favicon.ico HTTP/1.1" 404 2325
+WARNING 2023-09-09 19:12:18,010 log 13464 2324 Not Found: /les3/
+WARNING 2023-09-09 19:12:18,011 basehttp 13464 2324 "GET /les3/ HTTP/1.1" 404 2548
+WARNING 2023-09-09 19:12:18,583 log 13464 27720 Not Found: /les3/
+WARNING 2023-09-09 19:12:18,594 basehttp 13464 27720 "GET /les3/ HTTP/1.1" 404 2548
+INFO 2023-09-09 19:12:39,885 basehttp 13464 21052 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2023-09-09 19:12:39,919 basehttp 13464 29116 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2023-09-09 19:12:40,036 basehttp 13464 1936 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2023-09-09 19:12:43,782 basehttp 13464 28060 "GET /les3/hello2 HTTP/1.1" 301 0
+INFO 2023-09-09 19:12:43,800 basehttp 13464 18092 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2023-09-09 19:12:43,940 basehttp 13464 28556 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2023-09-09 19:18:48,838 autoreload 13464 14576 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 19:18:57,086 autoreload 27324 28688 Watching for file changes with StatReloader
+INFO 2023-09-09 19:18:59,854 autoreload 27324 28688 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 19:19:02,804 autoreload 13940 29020 Watching for file changes with StatReloader
+INFO 2023-09-09 19:19:05,729 autoreload 13940 29020 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 19:19:09,879 autoreload 21488 14536 Watching for file changes with StatReloader
+INFO 2023-09-09 19:19:21,990 autoreload 21488 14536 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 19:19:24,068 autoreload 29672 26304 Watching for file changes with StatReloader
+INFO 2023-09-09 19:19:26,739 autoreload 29672 26304 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 19:19:28,006 autoreload 22448 14804 Watching for file changes with StatReloader
+INFO 2023-09-09 19:19:41,755 autoreload 22448 14804 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 19:19:43,819 autoreload 14796 19692 Watching for file changes with StatReloader
+INFO 2023-09-09 19:19:49,149 autoreload 14796 19692 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 19:19:50,350 autoreload 27044 21968 Watching for file changes with StatReloader
+INFO 2023-09-09 19:19:55,072 autoreload 27044 21968 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 20:10:17,555 autoreload 26832 23488 Watching for file changes with StatReloader
+INFO 2023-09-09 20:11:20,947 autoreload 26832 23488 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:11:27,777 autoreload 22064 20060 Watching for file changes with StatReloader
+INFO 2023-09-09 20:11:49,129 autoreload 22064 20060 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:11:52,928 autoreload 18812 29576 Watching for file changes with StatReloader
+INFO 2023-09-09 20:12:32,957 autoreload 18812 29576 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 20:12:39,594 autoreload 12444 16628 Watching for file changes with StatReloader
+INFO 2023-09-09 20:13:58,996 autoreload 12444 16628 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:14:03,738 autoreload 10964 25000 Watching for file changes with StatReloader
+INFO 2023-09-09 20:14:31,082 autoreload 10964 25000 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 20:14:35,035 autoreload 10312 576 Watching for file changes with StatReloader
+WARNING 2023-09-09 20:24:09,705 log 10312 28372 Not Found: /les3/posts
+WARNING 2023-09-09 20:24:09,730 basehttp 10312 28372 "GET /les3/posts HTTP/1.1" 404 2968
+WARNING 2023-09-09 20:24:11,558 log 10312 18952 Not Found: /les3/posts
+WARNING 2023-09-09 20:24:11,559 basehttp 10312 18952 "GET /les3/posts HTTP/1.1" 404 2968
+INFO 2023-09-09 20:24:16,897 basehttp 10312 27204 "GET /les3/posts/2022 HTTP/1.1" 301 0
+INFO 2023-09-09 20:24:16,960 basehttp 10312 11820 "GET /les3/posts/2022/ HTTP/1.1" 200 19
+INFO 2023-09-09 20:24:17,148 basehttp 10312 20128 "GET /les3/posts/2022/ HTTP/1.1" 200 19
+INFO 2023-09-09 20:25:57,730 basehttp 10312 28504 "GET /les3/posts/2022/2 HTTP/1.1" 301 0
+INFO 2023-09-09 20:25:57,756 basehttp 10312 23132 "GET /les3/posts/2022/2/ HTTP/1.1" 200 21
+INFO 2023-09-09 20:25:57,900 basehttp 10312 9408 "GET /les3/posts/2022/2/ HTTP/1.1" 200 21
+INFO 2023-09-09 20:40:30,259 autoreload 10312 576 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 20:40:42,855 autoreload 29388 28800 Watching for file changes with StatReloader
+INFO 2023-09-09 20:40:49,638 autoreload 29388 28800 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:41:02,331 autoreload 26632 28520 Watching for file changes with StatReloader
+INFO 2023-09-09 20:41:04,488 autoreload 26632 28520 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:41:08,501 autoreload 1844 24484 Watching for file changes with StatReloader
+INFO 2023-09-09 20:41:12,798 autoreload 1844 24484 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:41:17,953 autoreload 28280 24424 Watching for file changes with StatReloader
+INFO 2023-09-09 20:41:21,717 autoreload 28280 24424 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:41:27,520 autoreload 27312 27652 Watching for file changes with StatReloader
+INFO 2023-09-09 20:41:31,423 autoreload 27312 27652 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:41:38,408 autoreload 22888 1512 Watching for file changes with StatReloader
+INFO 2023-09-09 20:41:43,639 autoreload 22888 1512 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:41:45,657 autoreload 29420 20132 Watching for file changes with StatReloader
+INFO 2023-09-09 20:41:50,505 autoreload 29420 20132 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:41:54,243 autoreload 8544 24424 Watching for file changes with StatReloader
+INFO 2023-09-09 20:41:56,746 autoreload 8544 24424 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:41:59,370 autoreload 10296 28196 Watching for file changes with StatReloader
+INFO 2023-09-09 20:42:02,654 autoreload 10296 28196 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:42:07,133 autoreload 14536 1936 Watching for file changes with StatReloader
+INFO 2023-09-09 20:42:15,808 autoreload 14536 1936 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:42:19,593 autoreload 27388 28296 Watching for file changes with StatReloader
+INFO 2023-09-09 20:42:22,784 autoreload 27388 28296 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:42:24,850 autoreload 11636 28732 Watching for file changes with StatReloader
+INFO 2023-09-09 20:42:28,168 autoreload 11636 28732 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:42:31,523 autoreload 23764 28592 Watching for file changes with StatReloader
+INFO 2023-09-09 20:42:35,331 autoreload 23764 28592 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:42:38,568 autoreload 29512 25876 Watching for file changes with StatReloader
+INFO 2023-09-09 20:43:26,492 autoreload 29512 25876 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:43:34,261 autoreload 5660 21896 Watching for file changes with StatReloader
+INFO 2023-09-09 20:43:41,209 autoreload 5660 21896 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:43:45,373 autoreload 23660 27488 Watching for file changes with StatReloader
+INFO 2023-09-09 20:43:49,553 autoreload 23660 27488 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:43:52,538 autoreload 3932 27240 Watching for file changes with StatReloader
+INFO 2023-09-09 20:43:54,302 autoreload 3932 27240 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:44:04,028 autoreload 22444 24524 Watching for file changes with StatReloader
+INFO 2023-09-09 20:44:06,772 autoreload 22444 24524 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:44:10,045 autoreload 5452 1816 Watching for file changes with StatReloader
+INFO 2023-09-09 20:44:12,270 autoreload 5452 1816 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:44:19,743 autoreload 29660 28620 Watching for file changes with StatReloader
+INFO 2023-09-09 20:44:37,736 autoreload 29660 28620 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:44:42,117 autoreload 22248 27860 Watching for file changes with StatReloader
+INFO 2023-09-09 20:44:55,026 autoreload 22248 27860 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:44:57,649 autoreload 28480 9144 Watching for file changes with StatReloader
+INFO 2023-09-09 20:44:59,394 autoreload 28480 9144 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:45:02,078 autoreload 20908 26076 Watching for file changes with StatReloader
+INFO 2023-09-09 20:45:15,444 autoreload 20908 26076 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:45:18,313 autoreload 27652 26284 Watching for file changes with StatReloader
+INFO 2023-09-09 20:45:26,168 autoreload 27652 26284 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:45:27,629 autoreload 6160 28832 Watching for file changes with StatReloader
+INFO 2023-09-09 20:45:31,396 autoreload 6160 28832 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:45:35,564 autoreload 17216 16608 Watching for file changes with StatReloader
+INFO 2023-09-09 20:45:45,063 autoreload 17216 16608 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:45:48,864 autoreload 25776 24052 Watching for file changes with StatReloader
+INFO 2023-09-09 20:45:52,114 autoreload 25776 24052 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:45:53,946 autoreload 23424 22812 Watching for file changes with StatReloader
+INFO 2023-09-09 20:46:07,320 autoreload 23424 22812 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:46:16,700 autoreload 5644 22536 Watching for file changes with StatReloader
+INFO 2023-09-09 20:46:27,866 autoreload 5644 22536 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:46:29,551 autoreload 29280 28244 Watching for file changes with StatReloader
+INFO 2023-09-09 20:46:32,682 autoreload 29280 28244 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:46:36,680 autoreload 27644 16028 Watching for file changes with StatReloader
+INFO 2023-09-09 20:46:39,534 autoreload 27644 16028 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:46:41,225 autoreload 28500 18916 Watching for file changes with StatReloader
+INFO 2023-09-09 20:46:44,422 autoreload 28500 18916 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:46:46,640 autoreload 2464 23084 Watching for file changes with StatReloader
+INFO 2023-09-09 20:46:53,885 autoreload 2464 23084 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:46:55,450 autoreload 22216 13780 Watching for file changes with StatReloader
+INFO 2023-09-09 20:46:58,016 autoreload 22216 13780 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:47:05,085 autoreload 24524 26112 Watching for file changes with StatReloader
+INFO 2023-09-09 20:47:12,875 autoreload 24524 26112 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:47:19,184 autoreload 23180 18248 Watching for file changes with StatReloader
+INFO 2023-09-09 20:47:30,846 autoreload 23180 18248 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:47:32,841 autoreload 27080 27960 Watching for file changes with StatReloader
+INFO 2023-09-09 20:47:37,892 autoreload 27080 27960 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:47:42,597 autoreload 8664 17324 Watching for file changes with StatReloader
+INFO 2023-09-09 20:47:46,839 autoreload 8664 17324 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:47:49,205 autoreload 28792 22040 Watching for file changes with StatReloader
+INFO 2023-09-09 20:47:53,462 autoreload 28792 22040 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:47:55,321 autoreload 7300 13928 Watching for file changes with StatReloader
+INFO 2023-09-09 20:48:06,126 autoreload 7300 13928 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:48:09,956 autoreload 29232 14932 Watching for file changes with StatReloader
+INFO 2023-09-09 20:48:12,726 autoreload 29232 14932 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:48:14,611 autoreload 9140 20836 Watching for file changes with StatReloader
+INFO 2023-09-09 20:48:20,144 autoreload 9140 20836 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:48:23,052 autoreload 16496 29076 Watching for file changes with StatReloader
+INFO 2023-09-09 20:48:28,122 autoreload 16496 29076 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:48:30,446 autoreload 24004 27244 Watching for file changes with StatReloader
+INFO 2023-09-09 20:48:32,708 autoreload 24004 27244 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:48:34,596 autoreload 25940 14532 Watching for file changes with StatReloader
+INFO 2023-09-09 20:48:39,301 autoreload 25940 14532 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:48:42,718 autoreload 27376 18904 Watching for file changes with StatReloader
+INFO 2023-09-09 20:48:49,388 autoreload 27376 18904 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:48:58,446 autoreload 21772 25748 Watching for file changes with StatReloader
+INFO 2023-09-09 20:49:07,182 autoreload 21772 25748 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 20:49:11,020 autoreload 11820 23416 Watching for file changes with StatReloader
+INFO 2023-09-09 21:13:44,798 basehttp 11820 28080 "GET /les3/posts/2022/2/python HTTP/1.1" 301 0
+INFO 2023-09-09 21:13:45,066 basehttp 11820 26904 "GET /les3/posts/2022/2/python/ HTTP/1.1" 200 360
+INFO 2023-09-09 21:13:46,282 basehttp 11820 26976 "GET /les3/posts/2022/2/python/ HTTP/1.1" 200 360
+INFO 2023-09-09 22:24:33,091 autoreload 11820 23416 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 22:24:47,339 autoreload 15000 14260 Watching for file changes with StatReloader
+INFO 2023-09-09 22:24:51,945 autoreload 15000 14260 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 22:24:54,579 autoreload 19408 1536 Watching for file changes with StatReloader
+INFO 2023-09-09 22:25:03,073 autoreload 19408 1536 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 22:25:07,666 autoreload 25036 10140 Watching for file changes with StatReloader
+INFO 2023-09-09 22:25:10,608 autoreload 25036 10140 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 22:25:18,184 autoreload 4876 28560 Watching for file changes with StatReloader
+INFO 2023-09-09 22:25:26,552 autoreload 4876 28560 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 22:25:32,370 autoreload 26584 23200 Watching for file changes with StatReloader
+INFO 2023-09-09 22:25:52,012 autoreload 26584 23200 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 22:26:00,754 autoreload 7236 7316 Watching for file changes with StatReloader
+INFO 2023-09-09 22:26:05,554 autoreload 7236 7316 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 22:26:08,412 autoreload 23112 26520 Watching for file changes with StatReloader
+INFO 2023-09-09 22:26:13,337 autoreload 23112 26520 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 22:26:21,979 autoreload 21680 5540 Watching for file changes with StatReloader
+INFO 2023-09-09 22:26:26,273 autoreload 21680 5540 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 22:26:28,607 autoreload 1264 7500 Watching for file changes with StatReloader
+INFO 2023-09-09 22:35:56,525 autoreload 1264 7500 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 22:36:04,305 autoreload 27120 8356 Watching for file changes with StatReloader
+INFO 2023-09-09 22:36:08,946 autoreload 27120 8356 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 22:36:13,773 autoreload 22672 12596 Watching for file changes with StatReloader
+INFO 2023-09-09 22:36:59,957 autoreload 22672 12596 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 22:37:04,432 autoreload 27792 28404 Watching for file changes with StatReloader
+INFO 2023-09-09 22:37:14,811 autoreload 27792 28404 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 22:37:21,624 autoreload 25396 28540 Watching for file changes with StatReloader
+INFO 2023-09-09 22:38:32,410 basehttp 25396 29612 "GET /les3 HTTP/1.1" 301 0
+ERROR 2023-09-09 22:38:33,451 log 25396 6996 Internal Server Error: /les3/
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\lection\myproject\myapp3\views.py", line 44, in my_view
+    return render(request, "myapp3/my_template.html", context)
+  File "D:\Python_django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python_django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python_django\venv\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "D:\Python_django\venv\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than set.
+ERROR 2023-09-09 22:38:33,461 basehttp 25396 6996 "GET /les3/ HTTP/1.1" 500 82384
+ERROR 2023-09-09 22:38:37,155 log 25396 19028 Internal Server Error: /les3/
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\lection\myproject\myapp3\views.py", line 44, in my_view
+    return render(request, "myapp3/my_template.html", context)
+  File "D:\Python_django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python_django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python_django\venv\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "D:\Python_django\venv\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than set.
+ERROR 2023-09-09 22:38:37,155 basehttp 25396 19028 "GET /les3/ HTTP/1.1" 500 81439
+INFO 2023-09-09 22:38:48,591 autoreload 25396 28540 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 22:38:52,002 autoreload 17324 29212 Watching for file changes with StatReloader
+ERROR 2023-09-09 22:39:03,053 log 17324 29048 Internal Server Error: /les3/
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\lection\myproject\myapp3\views.py", line 44, in my_view
+    return render(request, "myapp3/my_template.html", context)
+  File "D:\Python_django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python_django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python_django\venv\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "D:\Python_django\venv\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than set.
+ERROR 2023-09-09 22:39:03,062 basehttp 17324 29048 "GET /les3/ HTTP/1.1" 500 82521
+ERROR 2023-09-09 22:39:03,602 log 17324 23872 Internal Server Error: /les3/
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\lection\myproject\myapp3\views.py", line 44, in my_view
+    return render(request, "myapp3/my_template.html", context)
+  File "D:\Python_django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python_django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python_django\venv\lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+  File "D:\Python_django\venv\lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than set.
+ERROR 2023-09-09 22:39:03,624 basehttp 17324 23872 "GET /les3/ HTTP/1.1" 500 81439
+INFO 2023-09-09 22:41:56,649 autoreload 17324 29212 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 22:42:03,058 autoreload 28044 22660 Watching for file changes with StatReloader
+INFO 2023-09-09 22:44:56,290 autoreload 28044 22660 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 22:45:01,621 autoreload 29644 23640 Watching for file changes with StatReloader
+INFO 2023-09-09 22:45:08,937 basehttp 29644 12864 "GET /les3/ HTTP/1.1" 200 175
+INFO 2023-09-09 22:45:12,725 basehttp 29644 27872 "GET /les3/ HTTP/1.1" 200 175
+INFO 2023-09-09 23:18:21,055 autoreload 29644 23640 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:18:31,164 autoreload 13400 12872 Watching for file changes with StatReloader
+INFO 2023-09-09 23:18:37,000 autoreload 13400 12872 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:18:41,145 autoreload 28612 24708 Watching for file changes with StatReloader
+INFO 2023-09-09 23:19:00,123 autoreload 28612 24708 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:19:05,179 autoreload 14932 28452 Watching for file changes with StatReloader
+INFO 2023-09-09 23:19:16,180 autoreload 14932 28452 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:19:17,994 autoreload 29652 28240 Watching for file changes with StatReloader
+INFO 2023-09-09 23:19:38,448 autoreload 29652 28240 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:19:44,041 autoreload 19052 18144 Watching for file changes with StatReloader
+INFO 2023-09-09 23:19:47,023 autoreload 19052 18144 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:19:51,295 autoreload 26004 7224 Watching for file changes with StatReloader
+INFO 2023-09-09 23:20:07,974 autoreload 26004 7224 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:20:13,726 autoreload 10468 27668 Watching for file changes with StatReloader
+INFO 2023-09-09 23:20:16,233 autoreload 10468 27668 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:20:23,993 autoreload 17792 29264 Watching for file changes with StatReloader
+INFO 2023-09-09 23:20:39,198 autoreload 17792 29264 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:20:41,588 autoreload 28848 24936 Watching for file changes with StatReloader
+INFO 2023-09-09 23:23:25,772 autoreload 28848 24936 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:23:28,053 autoreload 26252 26132 Watching for file changes with StatReloader
+INFO 2023-09-09 23:23:30,187 autoreload 26252 26132 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:23:31,754 autoreload 15804 25952 Watching for file changes with StatReloader
+INFO 2023-09-09 23:23:36,681 autoreload 15804 25952 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:23:38,699 autoreload 20648 24940 Watching for file changes with StatReloader
+INFO 2023-09-09 23:23:53,547 autoreload 20648 24940 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:23:59,394 autoreload 28176 29124 Watching for file changes with StatReloader
+INFO 2023-09-09 23:24:03,579 autoreload 28176 29124 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:24:07,586 autoreload 29176 29372 Watching for file changes with StatReloader
+INFO 2023-09-09 23:24:16,082 autoreload 29176 29372 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:24:25,514 autoreload 8672 25932 Watching for file changes with StatReloader
+INFO 2023-09-09 23:24:48,751 autoreload 8672 25932 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:24:53,644 autoreload 13864 28340 Watching for file changes with StatReloader
+INFO 2023-09-09 23:24:59,016 autoreload 13864 28340 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:25:02,026 autoreload 2504 14988 Watching for file changes with StatReloader
+INFO 2023-09-09 23:25:07,301 autoreload 2504 14988 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:25:09,276 autoreload 7036 24712 Watching for file changes with StatReloader
+INFO 2023-09-09 23:25:11,647 autoreload 7036 24712 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:25:15,109 autoreload 5260 17540 Watching for file changes with StatReloader
+INFO 2023-09-09 23:25:39,140 autoreload 5260 17540 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:25:44,866 autoreload 23548 24248 Watching for file changes with StatReloader
+INFO 2023-09-09 23:25:49,550 autoreload 23548 24248 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:25:54,888 autoreload 22380 13752 Watching for file changes with StatReloader
+INFO 2023-09-09 23:28:43,865 autoreload 22380 13752 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:28:50,777 autoreload 18644 27180 Watching for file changes with StatReloader
+INFO 2023-09-09 23:29:26,061 autoreload 18644 27180 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:29:35,907 autoreload 9744 27952 Watching for file changes with StatReloader
+INFO 2023-09-09 23:29:41,909 autoreload 9744 27952 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:29:44,667 autoreload 17280 1516 Watching for file changes with StatReloader
+INFO 2023-09-09 23:29:49,079 autoreload 17280 1516 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:29:53,661 autoreload 9176 22800 Watching for file changes with StatReloader
+INFO 2023-09-09 23:29:57,470 autoreload 9176 22800 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:29:59,458 autoreload 28512 22040 Watching for file changes with StatReloader
+INFO 2023-09-09 23:30:02,271 autoreload 28512 22040 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:30:04,602 autoreload 21148 18900 Watching for file changes with StatReloader
+INFO 2023-09-09 23:30:32,508 autoreload 21148 18900 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:30:42,913 autoreload 17976 4048 Watching for file changes with StatReloader
+INFO 2023-09-09 23:31:23,438 basehttp 17976 7404 "GET /les3/if HTTP/1.1" 301 0
+INFO 2023-09-09 23:31:23,704 basehttp 17976 17556 "GET /les3/if/ HTTP/1.1" 200 346
+INFO 2023-09-09 23:31:25,680 basehttp 17976 13292 "GET /les3/if/ HTTP/1.1" 200 346
+INFO 2023-09-09 23:42:57,707 autoreload 17976 4048 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:43:05,684 autoreload 28760 17144 Watching for file changes with StatReloader
+INFO 2023-09-09 23:43:09,855 autoreload 28760 17144 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:43:24,133 autoreload 28200 15000 Watching for file changes with StatReloader
+INFO 2023-09-09 23:43:36,879 autoreload 28200 15000 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:43:47,258 autoreload 27784 13892 Watching for file changes with StatReloader
+INFO 2023-09-09 23:43:54,003 autoreload 27784 13892 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:43:57,085 autoreload 29164 24592 Watching for file changes with StatReloader
+INFO 2023-09-09 23:43:59,592 autoreload 29164 24592 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:44:01,779 autoreload 22776 28744 Watching for file changes with StatReloader
+INFO 2023-09-09 23:44:05,862 autoreload 22776 28744 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:44:07,753 autoreload 28532 26536 Watching for file changes with StatReloader
+INFO 2023-09-09 23:44:09,253 autoreload 28532 26536 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:44:12,211 autoreload 20288 20668 Watching for file changes with StatReloader
+INFO 2023-09-09 23:44:15,142 autoreload 20288 20668 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:44:16,497 autoreload 29156 21776 Watching for file changes with StatReloader
+INFO 2023-09-09 23:44:27,132 autoreload 29156 21776 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:44:32,727 autoreload 22412 6868 Watching for file changes with StatReloader
+INFO 2023-09-09 23:44:39,240 autoreload 22412 6868 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:44:40,971 autoreload 24392 21852 Watching for file changes with StatReloader
+INFO 2023-09-09 23:44:43,628 autoreload 24392 21852 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:44:45,971 autoreload 24052 21896 Watching for file changes with StatReloader
+INFO 2023-09-09 23:45:00,934 autoreload 24052 21896 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:45:04,813 autoreload 26196 25504 Watching for file changes with StatReloader
+INFO 2023-09-09 23:45:08,967 autoreload 26196 25504 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:45:12,186 autoreload 16960 28080 Watching for file changes with StatReloader
+INFO 2023-09-09 23:45:20,519 autoreload 16960 28080 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:45:23,862 autoreload 18696 13080 Watching for file changes with StatReloader
+INFO 2023-09-09 23:45:30,847 autoreload 18696 13080 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:45:32,136 autoreload 27900 17756 Watching for file changes with StatReloader
+INFO 2023-09-09 23:45:39,145 autoreload 27900 17756 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:45:42,318 autoreload 22692 20760 Watching for file changes with StatReloader
+INFO 2023-09-09 23:47:57,130 autoreload 22692 20760 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:48:10,859 autoreload 22812 26388 Watching for file changes with StatReloader
+INFO 2023-09-09 23:48:18,845 autoreload 22812 26388 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:48:26,777 autoreload 18092 29288 Watching for file changes with StatReloader
+INFO 2023-09-09 23:48:40,921 autoreload 18092 29288 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:48:51,976 autoreload 20432 25456 Watching for file changes with StatReloader
+INFO 2023-09-09 23:50:49,878 autoreload 20432 25456 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:50:53,711 autoreload 23868 28504 Watching for file changes with StatReloader
+INFO 2023-09-09 23:51:04,571 autoreload 23868 28504 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:51:07,871 autoreload 3452 29608 Watching for file changes with StatReloader
+INFO 2023-09-09 23:51:20,367 autoreload 3452 29608 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:51:23,501 autoreload 19948 21472 Watching for file changes with StatReloader
+INFO 2023-09-09 23:51:26,076 autoreload 19948 21472 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:51:29,458 autoreload 24424 29516 Watching for file changes with StatReloader
+INFO 2023-09-09 23:51:35,897 autoreload 24424 29516 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:51:38,625 autoreload 26724 25956 Watching for file changes with StatReloader
+INFO 2023-09-09 23:51:45,146 autoreload 26724 25956 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:51:52,861 autoreload 10468 272 Watching for file changes with StatReloader
+INFO 2023-09-09 23:51:58,084 autoreload 10468 272 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:52:06,295 autoreload 24556 28632 Watching for file changes with StatReloader
+INFO 2023-09-09 23:52:11,525 autoreload 24556 28632 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:52:19,550 autoreload 16512 15148 Watching for file changes with StatReloader
+INFO 2023-09-09 23:52:40,184 autoreload 16512 15148 D:\Python_django\lection\myproject\myapp3\views.py changed, reloading.
+INFO 2023-09-09 23:52:43,467 autoreload 18344 23400 Watching for file changes with StatReloader
+INFO 2023-09-09 23:54:58,630 autoreload 18344 23400 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:55:04,265 autoreload 19552 28976 Watching for file changes with StatReloader
+INFO 2023-09-09 23:55:07,835 autoreload 19552 28976 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:55:11,645 autoreload 23888 21868 Watching for file changes with StatReloader
+INFO 2023-09-09 23:55:41,721 autoreload 23888 21868 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:55:51,942 autoreload 23084 27180 Watching for file changes with StatReloader
+INFO 2023-09-09 23:55:54,789 autoreload 23084 27180 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:55:57,383 autoreload 29288 14964 Watching for file changes with StatReloader
+INFO 2023-09-09 23:55:58,826 autoreload 29288 14964 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:56:01,675 autoreload 18572 26912 Watching for file changes with StatReloader
+INFO 2023-09-09 23:56:09,693 autoreload 18572 26912 D:\Python_django\lection\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-09 23:56:17,111 autoreload 26244 6516 Watching for file changes with StatReloader
+INFO 2023-09-09 23:56:27,474 basehttp 26244 2988 "GET /les3/for HTTP/1.1" 301 0
+INFO 2023-09-09 23:56:27,859 basehttp 26244 16084 "GET /les3/for/ HTTP/1.1" 200 939
+INFO 2023-09-09 23:56:32,822 basehttp 26244 24088 "GET /les3/for/ HTTP/1.1" 200 939
+INFO 2023-09-11 09:52:14,530 autoreload 31392 25636 Watching for file changes with StatReloader
+INFO 2023-09-11 09:52:23,830 basehttp 31392 12276 "GET /les3/index HTTP/1.1" 301 0
+INFO 2023-09-11 09:52:23,996 basehttp 31392 29480 "GET /les3/index/ HTTP/1.1" 200 250
+WARNING 2023-09-11 09:52:24,655 log 31392 29480 Not Found: /favicon.ico
+WARNING 2023-09-11 09:52:24,658 basehttp 31392 29480 "GET /favicon.ico HTTP/1.1" 404 2325
+INFO 2023-09-11 09:52:25,027 basehttp 31392 26400 "GET /les3/index/ HTTP/1.1" 200 250
+INFO 2023-09-11 09:52:29,821 basehttp 31392 27452 "GET /les3/about HTTP/1.1" 301 0
+INFO 2023-09-11 09:52:29,864 basehttp 31392 20508 "GET /les3/about/ HTTP/1.1" 200 257
+INFO 2023-09-11 09:52:30,035 basehttp 31392 7028 "GET /les3/about/ HTTP/1.1" 200 257
+INFO 2023-09-11 10:04:45,607 autoreload 13048 17096 Watching for file changes with StatReloader
+INFO 2023-09-11 10:04:46,315 basehttp 13048 24160 "GET /les3/index/ HTTP/1.1" 200 310
+INFO 2023-09-11 10:04:47,233 basehttp 13048 9716 "GET /les3/index/ HTTP/1.1" 200 310
+INFO 2023-09-11 10:05:55,108 autoreload 13048 17096 D:\Python_django\lection\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-11 10:06:02,461 autoreload 2088 31496 Watching for file changes with StatReloader
+INFO 2023-09-11 10:06:11,657 autoreload 2088 31496 D:\Python_django\lection\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-11 10:06:12,746 autoreload 26900 30268 Watching for file changes with StatReloader
+INFO 2023-09-11 10:06:15,554 autoreload 26900 30268 D:\Python_django\lection\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-11 10:06:16,986 autoreload 26684 23604 Watching for file changes with StatReloader
+INFO 2023-09-11 10:06:21,984 autoreload 26684 23604 D:\Python_django\lection\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-11 10:06:22,842 autoreload 20884 18752 Watching for file changes with StatReloader
+INFO 2023-09-11 10:06:28,991 autoreload 20884 18752 D:\Python_django\lection\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-11 10:06:29,953 autoreload 25188 27944 Watching for file changes with StatReloader
+INFO 2023-09-11 10:06:32,923 autoreload 25188 27944 D:\Python_django\lection\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-11 10:06:34,091 autoreload 16120 31236 Watching for file changes with StatReloader
+INFO 2023-09-11 10:06:42,236 autoreload 16120 31236 D:\Python_django\lection\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-11 10:06:48,741 autoreload 24564 26784 Watching for file changes with StatReloader
+INFO 2023-09-11 13:18:22,241 autoreload 24564 26784 D:\Python_django\lection\myproject\myapp3\models.py changed, reloading.
+INFO 2023-09-11 13:18:29,987 autoreload 22804 30804 Watching for file changes with StatReloader
+INFO 2023-09-11 13:18:52,613 autoreload 22804 30804 D:\Python_django\lection\myproject\myapp3\models.py changed, reloading.
+INFO 2023-09-11 13:18:58,788 autoreload 14964 27600 Watching for file changes with StatReloader
+INFO 2023-09-11 14:16:30,423 autoreload 26400 22552 Watching for file changes with StatReloader
+ERROR 2023-09-11 14:30:28,260 log 26400 29952 Internal Server Error: /les3/author/5
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\lection\myproject\myapp3\views.py", line 86, in author_posts
+    return render(request, 'myapp3/author_posts.html', {'author': author, 'posts': posts})
+  File "D:\Python_django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python_django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python_django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python_django\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_full' with arguments '('',)' not found. 1 pattern(s) tried: ['les3/post/(?P<post_id>[0-9]+)\\Z']
+ERROR 2023-09-11 14:30:28,321 basehttp 26400 29952 "GET /les3/author/5 HTTP/1.1" 500 175793
+ERROR 2023-09-11 14:30:30,654 log 26400 19204 Internal Server Error: /les3/author/5
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\lection\myproject\myapp3\views.py", line 86, in author_posts
+    return render(request, 'myapp3/author_posts.html', {'author': author, 'posts': posts})
+  File "D:\Python_django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python_django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python_django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Python_django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Python_django\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python_django\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_full' with arguments '('',)' not found. 1 pattern(s) tried: ['les3/post/(?P<post_id>[0-9]+)\\Z']
+ERROR 2023-09-11 14:30:30,765 basehttp 26400 19204 "GET /les3/author/5 HTTP/1.1" 500 174848
+INFO 2023-09-11 14:32:12,030 basehttp 26400 16048 "GET /les3/author/5 HTTP/1.1" 200 1275
+INFO 2023-09-11 14:32:12,289 basehttp 26400 19760 "GET /les3/author/5 HTTP/1.1" 200 1275
+INFO 2023-09-11 14:32:45,439 basehttp 26400 2184 "GET /les3/post/48 HTTP/1.1" 200 700
+INFO 2023-09-11 14:32:45,687 basehttp 26400 29560 "GET /les3/post/48 HTTP/1.1" 200 700
