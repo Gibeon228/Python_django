@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'myapp',
     'myapp2',
     'myapp3',
+    'myapp4',
 ]
 
 MIDDLEWARE = [
@@ -121,6 +122,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
@@ -141,12 +145,12 @@ LOGGING = {
     'handlers': {
         'console': {
             'class': 'logging.StreamHandler',
-            'formatter': 'verbose', # добавлен параметр formatter
+            'formatter': 'verbose',  # добавлен параметр formatter
         },
         'file': {
             'class': 'logging.FileHandler',
-            'filename': './log/django.log', # 'filename': './log/django.log',
-            'formatter': 'verbose', # добавлен параметр formatter
+            'filename': './log/django.log',  # 'filename': './log/django.log',
+            'formatter': 'verbose',  # добавлен параметр formatter
         }
     },
     'loggers': {

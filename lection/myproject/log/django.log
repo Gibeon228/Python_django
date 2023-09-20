@@ -690,3 +690,167 @@ INFO 2023-09-11 14:32:12,030 basehttp 26400 16048 "GET /les3/author/5 HTTP/1.1" 
 INFO 2023-09-11 14:32:12,289 basehttp 26400 19760 "GET /les3/author/5 HTTP/1.1" 200 1275
 INFO 2023-09-11 14:32:45,439 basehttp 26400 2184 "GET /les3/post/48 HTTP/1.1" 200 700
 INFO 2023-09-11 14:32:45,687 basehttp 26400 29560 "GET /les3/post/48 HTTP/1.1" 200 700
+INFO 2023-09-16 19:05:54,618 autoreload 17288 14868 Watching for file changes with StatReloader
+INFO 2023-09-16 19:06:04,736 basehttp 17288 632 "GET / HTTP/1.1" 200 310
+WARNING 2023-09-16 19:06:48,150 log 17288 15572 Not Found: /user/add
+WARNING 2023-09-16 19:06:48,152 basehttp 17288 15572 "GET /user/add HTTP/1.1" 404 2521
+WARNING 2023-09-16 19:06:48,732 log 17288 13508 Not Found: /user/add
+WARNING 2023-09-16 19:06:48,738 basehttp 17288 13508 "GET /user/add HTTP/1.1" 404 2521
+WARNING 2023-09-16 19:06:49,077 log 17288 15572 Not Found: /favicon.ico
+WARNING 2023-09-16 19:06:49,079 basehttp 17288 15572 "GET /favicon.ico HTTP/1.1" 404 2530
+INFO 2023-09-16 19:06:56,175 basehttp 17288 4300 "GET /les4/user/add HTTP/1.1" 301 0
+INFO 2023-09-16 19:06:56,343 basehttp 17288 15420 "GET /les4/user/add/ HTTP/1.1" 200 970
+INFO 2023-09-16 19:06:56,540 basehttp 17288 7756 "GET /les4/user/add/ HTTP/1.1" 200 970
+INFO 2023-09-16 19:11:13,106 basehttp 17288 13204 "POST /les4/user/add/ HTTP/1.1" 200 1017
+INFO 2023-09-16 19:11:13,428 basehttp 17288 5108 "GET /les4/user/add/ HTTP/1.1" 200 970
+INFO 2023-09-16 19:11:40,255 basehttp 17288 10776 "POST /les4/user/add/ HTTP/1.1" 200 1017
+INFO 2023-09-16 19:11:40,390 basehttp 17288 13248 "GET /les4/user/add/ HTTP/1.1" 200 970
+INFO 2023-09-16 19:12:59,743 autoreload 17288 14868 D:\Python_django\lection\myproject\myapp4\views.py changed, reloading.
+INFO 2023-09-16 19:13:02,795 autoreload 6988 15724 Watching for file changes with StatReloader
+INFO 2023-09-16 19:13:08,146 basehttp 6988 11120 "POST /les4/user/add/ HTTP/1.1" 200 1017
+INFO 2023-09-16 19:13:08,812 basehttp 6988 8532 "GET /les4/user/add/ HTTP/1.1" 200 970
+INFO 2023-09-16 19:16:07,735 autoreload 6988 15724 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:16:10,215 autoreload 17284 5192 Watching for file changes with StatReloader
+INFO 2023-09-16 19:16:13,385 autoreload 17284 5192 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:16:15,376 autoreload 13120 1932 Watching for file changes with StatReloader
+INFO 2023-09-16 19:16:18,935 autoreload 13120 1932 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:16:20,936 autoreload 14420 14172 Watching for file changes with StatReloader
+INFO 2023-09-16 19:16:37,880 autoreload 14420 14172 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:16:42,866 autoreload 15420 14672 Watching for file changes with StatReloader
+INFO 2023-09-16 19:16:49,459 autoreload 15420 14672 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:16:50,894 autoreload 15996 11148 Watching for file changes with StatReloader
+INFO 2023-09-16 19:16:53,846 autoreload 15996 11148 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:16:54,960 autoreload 15680 4776 Watching for file changes with StatReloader
+INFO 2023-09-16 19:16:59,423 autoreload 15680 4776 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:17:00,811 autoreload 2864 5248 Watching for file changes with StatReloader
+INFO 2023-09-16 19:17:07,072 autoreload 2864 5248 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:17:08,337 autoreload 11408 11156 Watching for file changes with StatReloader
+INFO 2023-09-16 19:17:12,795 autoreload 11408 11156 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:17:14,117 autoreload 1472 8560 Watching for file changes with StatReloader
+INFO 2023-09-16 19:17:21,301 autoreload 1472 8560 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:17:22,856 autoreload 17008 3932 Watching for file changes with StatReloader
+INFO 2023-09-16 19:17:24,917 autoreload 17008 3932 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:17:26,281 autoreload 17368 17348 Watching for file changes with StatReloader
+INFO 2023-09-16 19:17:36,488 autoreload 17368 17348 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:17:38,660 autoreload 8936 13320 Watching for file changes with StatReloader
+INFO 2023-09-16 19:17:45,365 autoreload 8936 13320 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:17:48,429 autoreload 6504 12568 Watching for file changes with StatReloader
+INFO 2023-09-16 19:17:53,419 autoreload 6504 12568 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:17:55,774 autoreload 15688 14812 Watching for file changes with StatReloader
+INFO 2023-09-16 19:18:00,002 autoreload 15688 14812 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:18:01,207 autoreload 1292 6244 Watching for file changes with StatReloader
+INFO 2023-09-16 19:18:06,690 autoreload 1292 6244 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:18:07,770 autoreload 3336 16672 Watching for file changes with StatReloader
+INFO 2023-09-16 19:18:16,895 autoreload 3336 16672 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:18:19,327 autoreload 7536 9732 Watching for file changes with StatReloader
+INFO 2023-09-16 19:18:22,019 autoreload 7536 9732 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:18:23,786 autoreload 16284 14544 Watching for file changes with StatReloader
+INFO 2023-09-16 19:18:27,001 autoreload 16284 14544 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:18:28,108 autoreload 16228 2772 Watching for file changes with StatReloader
+INFO 2023-09-16 19:18:30,324 autoreload 16228 2772 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:18:31,592 autoreload 14756 16736 Watching for file changes with StatReloader
+INFO 2023-09-16 19:18:35,885 autoreload 14756 16736 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:18:37,043 autoreload 6008 2152 Watching for file changes with StatReloader
+INFO 2023-09-16 19:18:38,932 autoreload 6008 2152 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:18:42,132 autoreload 11852 11540 Watching for file changes with StatReloader
+INFO 2023-09-16 19:18:48,055 autoreload 11852 11540 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-16 19:18:53,216 autoreload 10456 13948 Watching for file changes with StatReloader
+INFO 2023-09-17 22:08:30,231 autoreload 13768 16224 Watching for file changes with StatReloader
+INFO 2023-09-17 22:10:45,199 basehttp 13768 15568 "GET / HTTP/1.1" 200 310
+INFO 2023-09-17 22:10:46,402 basehttp 13768 2332 "GET / HTTP/1.1" 200 310
+WARNING 2023-09-17 22:10:46,592 log 13768 15568 Not Found: /favicon.ico
+WARNING 2023-09-17 22:10:46,595 basehttp 13768 15568 "GET /favicon.ico HTTP/1.1" 404 2530
+INFO 2023-09-17 22:11:11,535 basehttp 13768 12128 "GET /les4/forms HTTP/1.1" 301 0
+INFO 2023-09-17 22:11:11,917 basehttp 13768 14928 "GET /les4/forms/ HTTP/1.1" 200 1509
+INFO 2023-09-17 22:11:12,050 basehttp 13768 16416 "GET /les4/forms/ HTTP/1.1" 200 1509
+INFO 2023-09-17 22:12:22,960 basehttp 13768 6984 "POST /les4/forms/ HTTP/1.1" 200 1584
+INFO 2023-09-17 22:12:23,208 basehttp 13768 2532 "GET /les4/forms/ HTTP/1.1" 200 1509
+INFO 2023-09-17 22:29:28,482 autoreload 13768 16224 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:29:37,904 autoreload 2928 10932 Watching for file changes with StatReloader
+INFO 2023-09-17 22:29:56,538 autoreload 2928 10932 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:29:59,653 autoreload 12764 5776 Watching for file changes with StatReloader
+INFO 2023-09-17 22:30:06,996 autoreload 12764 5776 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:30:09,025 autoreload 9496 7104 Watching for file changes with StatReloader
+INFO 2023-09-17 22:30:19,487 autoreload 9496 7104 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:30:22,203 autoreload 2764 14736 Watching for file changes with StatReloader
+INFO 2023-09-17 22:30:26,017 autoreload 2764 14736 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:30:28,469 autoreload 13464 11192 Watching for file changes with StatReloader
+INFO 2023-09-17 22:30:32,821 autoreload 13464 11192 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:30:34,923 autoreload 16588 11484 Watching for file changes with StatReloader
+INFO 2023-09-17 22:30:39,193 autoreload 16588 11484 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:30:40,743 autoreload 16376 2908 Watching for file changes with StatReloader
+INFO 2023-09-17 22:30:45,338 autoreload 16376 2908 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:30:47,805 autoreload 7604 12424 Watching for file changes with StatReloader
+INFO 2023-09-17 22:30:52,273 autoreload 7604 12424 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:30:55,352 autoreload 13824 14968 Watching for file changes with StatReloader
+INFO 2023-09-17 22:30:59,272 autoreload 13824 14968 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:31:01,035 autoreload 2872 10428 Watching for file changes with StatReloader
+INFO 2023-09-17 22:31:06,090 autoreload 2872 10428 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:31:07,178 autoreload 3788 15488 Watching for file changes with StatReloader
+INFO 2023-09-17 22:31:17,184 autoreload 3788 15488 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:31:18,804 autoreload 3372 15148 Watching for file changes with StatReloader
+INFO 2023-09-17 22:31:39,069 autoreload 3372 15148 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:31:42,905 autoreload 12152 2808 Watching for file changes with StatReloader
+INFO 2023-09-17 22:31:44,808 autoreload 12152 2808 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:31:47,400 autoreload 6756 15564 Watching for file changes with StatReloader
+INFO 2023-09-17 22:31:49,106 autoreload 6756 15564 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:31:51,806 autoreload 9084 15744 Watching for file changes with StatReloader
+INFO 2023-09-17 22:31:53,387 autoreload 9084 15744 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:31:56,013 autoreload 14140 7528 Watching for file changes with StatReloader
+INFO 2023-09-17 22:31:58,916 autoreload 14140 7528 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:32:00,182 autoreload 15464 8068 Watching for file changes with StatReloader
+INFO 2023-09-17 22:32:23,861 autoreload 15464 8068 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:32:25,804 autoreload 11384 6796 Watching for file changes with StatReloader
+INFO 2023-09-17 22:32:51,328 autoreload 11384 6796 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:32:53,556 autoreload 11372 13080 Watching for file changes with StatReloader
+INFO 2023-09-17 22:33:00,454 autoreload 11372 13080 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:33:01,938 autoreload 5964 13612 Watching for file changes with StatReloader
+INFO 2023-09-17 22:34:05,241 autoreload 5964 13612 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:34:06,692 autoreload 3176 4848 Watching for file changes with StatReloader
+INFO 2023-09-17 22:34:23,733 autoreload 3176 4848 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:34:25,252 autoreload 2728 6924 Watching for file changes with StatReloader
+INFO 2023-09-17 22:34:59,849 autoreload 2728 6924 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:35:03,221 autoreload 3664 7940 Watching for file changes with StatReloader
+INFO 2023-09-17 22:50:58,515 autoreload 3664 7940 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-17 22:51:03,095 autoreload 13924 11844 Watching for file changes with StatReloader
+INFO 2023-09-18 07:39:27,263 autoreload 13228 5628 Watching for file changes with StatReloader
+INFO 2023-09-18 07:39:34,142 basehttp 13228 10900 "GET / HTTP/1.1" 200 310
+INFO 2023-09-18 07:40:14,159 basehttp 13228 2728 "GET /les4/forms HTTP/1.1" 301 0
+INFO 2023-09-18 07:40:14,382 basehttp 13228 2792 "GET /les4/forms/ HTTP/1.1" 200 2130
+INFO 2023-09-18 07:40:14,661 basehttp 13228 11512 "GET /les4/forms/ HTTP/1.1" 200 2130
+INFO 2023-09-18 07:40:52,781 basehttp 13228 7764 "POST /les4/forms/ HTTP/1.1" 200 2238
+INFO 2023-09-18 07:40:52,970 basehttp 13228 15464 "GET /les4/forms/ HTTP/1.1" 200 2130
+INFO 2023-09-18 07:42:38,595 autoreload 13228 5628 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-18 07:42:44,902 autoreload 13848 10752 Watching for file changes with StatReloader
+INFO 2023-09-18 07:43:20,964 basehttp 13848 12000 "POST /les4/forms/ HTTP/1.1" 200 2238
+INFO 2023-09-18 07:43:21,959 basehttp 13848 12604 "GET /les4/forms/ HTTP/1.1" 200 2130
+INFO 2023-09-19 13:52:13,873 autoreload 15772 2824 Watching for file changes with StatReloader
+INFO 2023-09-19 13:52:32,117 autoreload 13256 14472 Watching for file changes with StatReloader
+INFO 2023-09-19 13:52:37,458 basehttp 13256 13644 "GET / HTTP/1.1" 200 310
+INFO 2023-09-19 13:52:39,753 basehttp 13256 12120 "GET / HTTP/1.1" 200 310
+WARNING 2023-09-19 13:52:40,001 log 13256 13644 Not Found: /favicon.ico
+WARNING 2023-09-19 13:52:40,004 basehttp 13256 13644 "GET /favicon.ico HTTP/1.1" 404 2530
+INFO 2023-09-19 13:53:10,970 basehttp 13256 14924 "GET /les4/user HTTP/1.1" 301 0
+INFO 2023-09-19 13:53:11,168 basehttp 13256 16664 "GET /les4/user/ HTTP/1.1" 200 948
+INFO 2023-09-19 13:53:11,308 basehttp 13256 17204 "GET /les4/user/ HTTP/1.1" 200 948
+INFO 2023-09-19 13:54:26,527 basehttp 13256 16392 "POST /les4/user/ HTTP/1.1" 200 1195
+INFO 2023-09-19 13:54:26,893 basehttp 13256 4680 "GET /les4/user/ HTTP/1.1" 200 948
+INFO 2023-09-19 13:54:54,173 basehttp 13256 11168 "POST /les4/user/ HTTP/1.1" 200 1020
+INFO 2023-09-19 13:54:54,341 basehttp 13256 8540 "GET /les4/user/ HTTP/1.1" 200 948
+INFO 2023-09-19 13:58:36,633 autoreload 13256 14472 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-19 13:58:46,084 autoreload 13556 12176 Watching for file changes with StatReloader
+INFO 2023-09-19 13:58:53,109 autoreload 13556 12176 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-19 13:58:55,924 autoreload 11768 14436 Watching for file changes with StatReloader
+INFO 2023-09-19 13:58:59,961 autoreload 11768 14436 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-19 13:59:02,641 autoreload 5488 10704 Watching for file changes with StatReloader
+INFO 2023-09-19 13:59:11,249 autoreload 5488 10704 D:\Python_django\lection\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-09-19 13:59:18,399 autoreload 11964 5088 Watching for file changes with StatReloader
+INFO 2023-09-19 14:01:45,616 autoreload 11964 5088 D:\Python_django\lection\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-19 14:01:53,331 autoreload 13160 276 Watching for file changes with StatReloader
+INFO 2023-09-19 14:01:57,965 autoreload 13160 276 D:\Python_django\lection\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-19 14:37:13,905 autoreload 9884 1556 Watching for file changes with StatReloader
+INFO 2023-09-19 14:37:22,135 basehttp 9884 1444 "GET /les4/upload HTTP/1.1" 301 0
+INFO 2023-09-19 14:37:22,339 basehttp 9884 15720 "GET /les4/upload/ HTTP/1.1" 200 660
+INFO 2023-09-19 14:37:23,340 basehttp 9884 8644 "GET /les4/upload/ HTTP/1.1" 200 660
+INFO 2023-09-19 14:37:51,545 basehttp 9884 14780 "POST /les4/upload/ HTTP/1.1" 200 660
+INFO 2023-09-19 14:37:51,757 basehttp 9884 11520 "GET /les4/upload/ HTTP/1.1" 200 660

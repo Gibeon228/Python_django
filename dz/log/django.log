@@ -219,3 +219,389 @@ Traceback (most recent call last):
     raise FieldError(
 django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, total_price
 ERROR 2023-09-11 20:54:00,847 basehttp 32048 28860 "GET /products/3 HTTP/1.1" 500 109994
+INFO 2023-09-11 20:58:40,910 autoreload 32048 23200 D:\Python_django\dz\myapp\views.py changed, reloading.
+INFO 2023-09-11 20:58:46,756 autoreload 22936 11692 Watching for file changes with StatReloader
+ERROR 2023-09-11 20:59:03,911 log 22936 26728 Internal Server Error: /products/3
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 28, in client_orders
+    orders = Order.objects.filter(client=client).all()
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, total_price
+ERROR 2023-09-11 20:59:03,920 basehttp 22936 26728 "GET /products/3 HTTP/1.1" 500 110522
+ERROR 2023-09-11 20:59:10,395 log 22936 32244 Internal Server Error: /products/3
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 28, in client_orders
+    orders = Order.objects.filter(client=client).all()
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, total_price
+ERROR 2023-09-11 20:59:10,421 basehttp 22936 32244 "GET /products/3 HTTP/1.1" 500 109442
+INFO 2023-09-19 16:58:07,594 autoreload 1896 2628 Watching for file changes with StatReloader
+INFO 2023-09-19 16:58:12,511 views 1896 6624 Index page accessed
+INFO 2023-09-19 16:58:12,518 basehttp 1896 6624 "GET / HTTP/1.1" 200 13
+INFO 2023-09-19 16:58:14,895 views 1896 3672 Index page accessed
+INFO 2023-09-19 16:58:14,897 basehttp 1896 3672 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-19 16:58:15,426 log 1896 5760 Not Found: /favicon.ico
+WARNING 2023-09-19 16:58:15,428 basehttp 1896 5760 "GET /favicon.ico HTTP/1.1" 404 2822
+WARNING 2023-09-19 16:58:18,806 log 1896 5760 Not Found: /sem3
+WARNING 2023-09-19 16:58:18,807 basehttp 1896 5760 "GET /sem3 HTTP/1.1" 404 2801
+WARNING 2023-09-19 16:58:19,042 log 1896 3672 Not Found: /sem3
+WARNING 2023-09-19 16:58:19,045 basehttp 1896 3672 "GET /sem3 HTTP/1.1" 404 2801
+ERROR 2023-09-19 16:58:28,910 log 1896 7748 Internal Server Error: /order_list
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 38, in get_context_data
+    context = super().get_context_data(**kwargs)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+ERROR 2023-09-19 16:58:28,924 basehttp 1896 7748 "GET /order_list HTTP/1.1" 500 67557
+ERROR 2023-09-19 16:58:29,205 log 1896 8780 Internal Server Error: /order_list
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 38, in get_context_data
+    context = super().get_context_data(**kwargs)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+ERROR 2023-09-19 16:58:29,211 basehttp 1896 8780 "GET /order_list HTTP/1.1" 500 66612
+WARNING 2023-09-19 16:58:37,678 log 1896 2388 Not Found: /sem3/order_list
+WARNING 2023-09-19 16:58:37,679 basehttp 1896 2388 "GET /sem3/order_list HTTP/1.1" 404 2834
+WARNING 2023-09-19 16:58:37,849 log 1896 10640 Not Found: /sem3/order_list
+WARNING 2023-09-19 16:58:37,852 basehttp 1896 10640 "GET /sem3/order_list HTTP/1.1" 404 2834
+ERROR 2023-09-19 16:58:41,143 log 1896 13784 Internal Server Error: /order_list
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 38, in get_context_data
+    context = super().get_context_data(**kwargs)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+ERROR 2023-09-19 16:58:41,145 basehttp 1896 13784 "GET /order_list HTTP/1.1" 500 67557
+ERROR 2023-09-19 16:58:41,363 log 1896 9768 Internal Server Error: /order_list
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 38, in get_context_data
+    context = super().get_context_data(**kwargs)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+ERROR 2023-09-19 16:58:41,363 basehttp 1896 9768 "GET /order_list HTTP/1.1" 500 66612
+INFO 2023-09-19 17:01:52,317 autoreload 14264 13936 Watching for file changes with StatReloader
+INFO 2023-09-19 17:01:55,059 views 14264 11196 Index page accessed
+INFO 2023-09-19 17:01:55,072 basehttp 14264 11196 "GET / HTTP/1.1" 200 13
+INFO 2023-09-19 17:01:55,638 views 14264 12640 Index page accessed
+INFO 2023-09-19 17:01:55,640 basehttp 14264 12640 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-19 17:02:12,986 log 14264 4072 Not Found: /ee
+WARNING 2023-09-19 17:02:12,988 basehttp 14264 4072 "GET /ee HTTP/1.1" 404 2795
+WARNING 2023-09-19 17:02:13,142 log 14264 10584 Not Found: /ee
+WARNING 2023-09-19 17:02:13,143 basehttp 14264 10584 "GET /ee HTTP/1.1" 404 2795
+ERROR 2023-09-19 17:02:19,452 log 14264 15160 Internal Server Error: /order_list
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 38, in get_context_data
+    context = super().get_context_data(**kwargs)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+ERROR 2023-09-19 17:02:19,458 basehttp 14264 15160 "GET /order_list HTTP/1.1" 500 67557
+ERROR 2023-09-19 17:02:19,704 log 14264 10728 Internal Server Error: /order_list
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 38, in get_context_data
+    context = super().get_context_data(**kwargs)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+ERROR 2023-09-19 17:02:19,718 basehttp 14264 10728 "GET /order_list HTTP/1.1" 500 66612
+INFO 2023-09-20 13:29:34,103 autoreload 11944 2680 Watching for file changes with StatReloader
+INFO 2023-09-20 13:30:10,836 autoreload 9300 9168 Watching for file changes with StatReloader
+INFO 2023-09-20 13:30:21,401 views 9300 9236 Index page accessed
+INFO 2023-09-20 13:30:21,510 basehttp 9300 9236 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-20 13:30:27,364 log 9300 9236 Not Found: /favicon.ico
+WARNING 2023-09-20 13:30:27,379 basehttp 9300 9236 "GET /favicon.ico HTTP/1.1" 404 2997
+INFO 2023-09-20 13:30:32,599 basehttp 9300 13780 "GET /product HTTP/1.1" 301 0
+INFO 2023-09-20 13:30:33,317 basehttp 9300 8428 "GET /product/ HTTP/1.1" 200 1318
+INFO 2023-09-20 13:30:37,229 basehttp 9300 9804 "GET /product/ HTTP/1.1" 200 1318
+INFO 2023-09-20 13:30:47,402 basehttp 9300 14300 "POST /product/ HTTP/1.1" 200 1423
+INFO 2023-09-20 13:30:47,601 basehttp 9300 3196 "GET /product/ HTTP/1.1" 200 1318
+INFO 2023-09-20 13:33:33,262 basehttp 9300 7128 "POST /product/ HTTP/1.1" 200 1507
+INFO 2023-09-20 13:33:35,729 basehttp 9300 272 "GET /product/ HTTP/1.1" 200 1402
+ERROR 2023-09-20 13:33:47,399 log 9300 6716 Internal Server Error: /product/
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table myapp_product has no column named image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 62, in add_product
+    product.save()
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python_django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table myapp_product has no column named image
+ERROR 2023-09-20 13:33:47,426 basehttp 9300 6716 "POST /product/ HTTP/1.1" 500 150902
+INFO 2023-09-20 13:33:48,078 basehttp 9300 14364 "GET /product/ HTTP/1.1" 200 1402
+INFO 2023-09-20 13:33:50,388 basehttp 9300 14364 "GET /product/ HTTP/1.1" 200 1402
+ERROR 2023-09-20 13:33:51,477 log 9300 6956 Internal Server Error: /product/
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table myapp_product has no column named image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 62, in add_product
+    product.save()
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python_django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table myapp_product has no column named image
+ERROR 2023-09-20 13:33:51,497 basehttp 9300 6956 "POST /product/ HTTP/1.1" 500 150902
+INFO 2023-09-20 13:33:51,800 basehttp 9300 1036 "GET /product/ HTTP/1.1" 200 1402
+INFO 2023-09-20 13:33:53,332 basehttp 9300 1036 "GET /product/ HTTP/1.1" 200 1402
+INFO 2023-09-20 13:34:08,331 basehttp 9300 5268 "POST /product/ HTTP/1.1" 200 1453
+INFO 2023-09-20 13:34:08,601 basehttp 9300 2980 "GET /product/ HTTP/1.1" 200 1348
+ERROR 2023-09-20 13:34:18,788 log 9300 10380 Internal Server Error: /product/
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table myapp_product has no column named image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 62, in add_product
+    product.save()
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python_django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table myapp_product has no column named image
+ERROR 2023-09-20 13:34:18,798 basehttp 9300 10380 "POST /product/ HTTP/1.1" 500 150902
+INFO 2023-09-20 13:34:19,187 basehttp 9300 10408 "GET /product/ HTTP/1.1" 200 1348
+INFO 2023-09-20 13:34:28,777 basehttp 9300 7180 "GET /product/ HTTP/1.1" 200 1348
+INFO 2023-09-20 13:40:46,567 autoreload 9300 9168 D:\Python_django\dz\myapp\urls.py changed, reloading.
+INFO 2023-09-20 13:40:59,898 autoreload 8644 13472 Watching for file changes with StatReloader
+INFO 2023-09-20 13:41:11,731 basehttp 8644 15660 "POST /product/ HTTP/1.1" 200 1423
+INFO 2023-09-20 13:41:12,930 basehttp 8644 7212 "GET /product/ HTTP/1.1" 200 1318
+WARNING 2023-09-20 13:55:27,405 log 8644 8744 Not Found: /update_image/
+WARNING 2023-09-20 13:55:27,413 basehttp 8644 8744 "GET /update_image/ HTTP/1.1" 404 3178
+WARNING 2023-09-20 13:55:28,748 log 8644 3648 Not Found: /update_image/
+WARNING 2023-09-20 13:55:28,750 basehttp 8644 3648 "GET /update_image/ HTTP/1.1" 404 3178
+INFO 2023-09-20 13:55:36,373 basehttp 8644 9260 "GET /upload HTTP/1.1" 301 0
+INFO 2023-09-20 13:55:36,464 basehttp 8644 9392 "GET /upload/ HTTP/1.1" 200 597
+INFO 2023-09-20 13:55:36,647 basehttp 8644 15556 "GET /upload/ HTTP/1.1" 200 597
+INFO 2023-09-20 13:55:42,252 basehttp 8644 3684 "POST /upload/ HTTP/1.1" 200 597
+INFO 2023-09-20 13:55:42,458 basehttp 8644 8368 "GET /upload/ HTTP/1.1" 200 597
+WARNING 2023-09-20 13:56:21,222 log 8644 13140 Not Found: /docs
+WARNING 2023-09-20 13:56:21,229 basehttp 8644 13140 "GET /docs HTTP/1.1" 404 3151
+WARNING 2023-09-20 13:56:22,182 log 8644 14548 Not Found: /docs
+WARNING 2023-09-20 13:56:22,184 basehttp 8644 14548 "GET /docs HTTP/1.1" 404 3151
+INFO 2023-09-20 13:56:29,905 basehttp 8644 12184 "GET /product/ HTTP/1.1" 200 1318
+INFO 2023-09-20 13:56:30,153 basehttp 8644 14248 "GET /product/ HTTP/1.1" 200 1318
+INFO 2023-09-20 13:56:41,701 autoreload 8644 13472 D:\Python_django\dz\myapp\forms.py changed, reloading.
+INFO 2023-09-20 13:56:45,653 autoreload 13136 10884 Watching for file changes with StatReloader
+INFO 2023-09-20 13:56:46,328 basehttp 13136 15664 "GET /product/ HTTP/1.1" 200 1173
+INFO 2023-09-20 13:56:46,776 basehttp 13136 13016 "GET /product/ HTTP/1.1" 200 1173
+ERROR 2023-09-20 13:56:54,573 log 13136 15772 Internal Server Error: /product/
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table myapp_product has no column named image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\dz\myapp\views.py", line 59, in add_product
+    product.save()
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Python_django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python_django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table myapp_product has no column named image
+ERROR 2023-09-20 13:56:54,589 basehttp 13136 15772 "POST /product/ HTTP/1.1" 500 150096
+INFO 2023-09-20 13:56:55,000 basehttp 13136 2868 "GET /product/ HTTP/1.1" 200 1173
+INFO 2023-09-20 14:02:49,545 autoreload 15336 13176 Watching for file changes with StatReloader
+INFO 2023-09-20 14:02:57,195 basehttp 15336 1460 "POST /product/ HTTP/1.1" 200 1218
+INFO 2023-09-20 14:02:58,575 basehttp 15336 9444 "GET /product/ HTTP/1.1" 200 1173
+INFO 2023-09-20 14:02:59,876 basehttp 15336 1460 "POST /product/ HTTP/1.1" 200 1218
+INFO 2023-09-20 14:03:00,047 basehttp 15336 9444 "GET /product/ HTTP/1.1" 200 1173
+INFO 2023-09-20 14:03:19,032 autoreload 15336 13176 D:\Python_django\dz\myapp\views.py changed, reloading.
+INFO 2023-09-20 14:03:23,992 autoreload 9084 2864 Watching for file changes with StatReloader
+INFO 2023-09-20 14:03:28,423 basehttp 9084 6140 "POST /product/ HTTP/1.1" 200 1218
+INFO 2023-09-20 14:03:29,050 basehttp 9084 3020 "GET /product/ HTTP/1.1" 200 1173
+INFO 2023-09-20 14:03:30,248 basehttp 9084 6140 "POST /product/ HTTP/1.1" 200 1218
+INFO 2023-09-20 14:03:30,430 basehttp 9084 3020 "GET /product/ HTTP/1.1" 200 1173
