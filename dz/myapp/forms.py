@@ -9,6 +9,7 @@ class ProductForm(forms.Form):
     price = forms.DecimalField(max_digits=8, decimal_places=2)
     quantity = forms.IntegerField(min_value=0)
     data_product = forms.DateField(initial=datetime.date.today)
+    # image = forms.ImageField()
 
 
 class ImageForm(forms.Form):

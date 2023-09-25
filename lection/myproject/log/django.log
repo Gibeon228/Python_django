@@ -854,3 +854,658 @@ INFO 2023-09-19 14:37:22,339 basehttp 9884 15720 "GET /les4/upload/ HTTP/1.1" 20
 INFO 2023-09-19 14:37:23,340 basehttp 9884 8644 "GET /les4/upload/ HTTP/1.1" 200 660
 INFO 2023-09-19 14:37:51,545 basehttp 9884 14780 "POST /les4/upload/ HTTP/1.1" 200 660
 INFO 2023-09-19 14:37:51,757 basehttp 9884 11520 "GET /les4/upload/ HTTP/1.1" 200 660
+INFO 2023-09-23 10:53:48,951 autoreload 9064 7188 Watching for file changes with StatReloader
+INFO 2023-09-23 10:53:56,493 basehttp 9064 7496 "GET / HTTP/1.1" 200 310
+WARNING 2023-09-23 10:53:57,684 log 9064 7496 Not Found: /favicon.ico
+WARNING 2023-09-23 10:53:57,689 basehttp 9064 7496 "GET /favicon.ico HTTP/1.1" 404 2530
+INFO 2023-09-23 10:54:00,210 basehttp 9064 8584 "GET / HTTP/1.1" 200 310
+INFO 2023-09-23 10:54:24,336 basehttp 9064 16164 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-23 10:54:24,459 basehttp 9064 9828 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-23 10:54:24,787 basehttp 9064 9828 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-09-23 10:54:25,507 basehttp 9064 13364 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-23 10:54:25,514 basehttp 9064 8276 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-23 10:54:25,519 basehttp 9064 9828 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-23 10:54:25,530 basehttp 9064 1040 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-23 10:54:25,533 basehttp 9064 6996 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-23 10:54:25,650 basehttp 9064 6996 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-09-23 10:54:25,653 basehttp 9064 9828 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-23 10:54:25,711 basehttp 9064 8944 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-09-23 10:57:22,004 autoreload 9064 7188 D:\Python_django\lection\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-23 10:57:25,866 autoreload 11360 4404 Watching for file changes with StatReloader
+INFO 2023-09-23 10:58:24,346 basehttp 11360 4120 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-23 10:58:25,049 basehttp 11360 2968 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-23 17:57:55,432 autoreload 4376 10816 Watching for file changes with StatReloader
+ERROR 2023-09-23 17:58:41,123 log 4376 11772 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\base\base.py", line 313, in _commit
+    return self.connection.commit()
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python_django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\contrib\admin\sites.py", line 441, in login
+    return LoginView.as_view(**defaults)(request)
+  File "D:\Python_django\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\contrib\auth\views.py", line 90, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "D:\Python_django\venv\lib\site-packages\django\contrib\auth\views.py", line 109, in form_valid
+    auth_login(self.request, form.get_user())
+  File "D:\Python_django\venv\lib\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+  File "D:\Python_django\venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "D:\Python_django\venv\lib\site-packages\django\contrib\sessions\backends\db.py", line 54, in create
+    self.save(must_create=True)
+  File "D:\Python_django\venv\lib\site-packages\django\contrib\sessions\backends\db.py", line 85, in save
+    with transaction.atomic(using=using):
+  File "D:\Python_django\venv\lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "D:\Python_django\venv\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\base\base.py", line 337, in commit
+    self._commit()
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\base\base.py", line 312, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "D:\Python_django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python_django\venv\lib\site-packages\django\db\backends\base\base.py", line 313, in _commit
+    return self.connection.commit()
+django.db.utils.OperationalError: database is locked
+ERROR 2023-09-23 17:58:41,151 basehttp 4376 11772 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 176066
+INFO 2023-09-23 17:58:42,778 basehttp 4376 7432 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-23 18:50:06,774 basehttp 4376 4816 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-23 18:50:06,966 basehttp 4376 4816 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-23 18:50:07,616 basehttp 4376 4816 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-23 18:50:07,682 basehttp 4376 4816 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-23 18:50:07,702 basehttp 4376 5340 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-23 18:50:07,768 basehttp 4376 4396 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-23 19:00:27,705 basehttp 4376 13964 "GET /admin/auth/user/ HTTP/1.1" 200 11304
+INFO 2023-09-23 19:00:28,159 basehttp 4376 13964 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-23 19:00:28,236 basehttp 4376 12676 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 19:00:28,322 basehttp 4376 2108 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-23 19:00:28,392 basehttp 4376 13964 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-23 19:00:28,394 basehttp 4376 15112 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-23 19:00:28,412 basehttp 4376 15100 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-23 19:00:28,424 basehttp 4376 6660 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-23 19:00:28,454 basehttp 4376 12676 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-23 19:00:28,512 basehttp 4376 15100 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-23 19:00:28,529 basehttp 4376 15112 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-23 19:00:28,541 basehttp 4376 6660 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-23 19:00:28,558 basehttp 4376 13964 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-23 19:00:28,738 basehttp 4376 2108 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-23 19:00:28,920 basehttp 4376 13964 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-23 19:00:29,081 basehttp 4376 13964 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-23 19:00:29,881 basehttp 4376 536 "GET /admin/auth/user/ HTTP/1.1" 200 11304
+INFO 2023-09-23 19:06:52,376 basehttp 4376 15352 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-09-23 19:06:52,716 basehttp 4376 15352 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-23 19:06:52,730 basehttp 4376 11488 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 19:06:52,798 basehttp 4376 11152 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-23 19:06:53,078 basehttp 4376 11488 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-23 19:06:53,090 basehttp 4376 11152 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-23 19:06:54,005 basehttp 4376 14768 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-09-24 09:58:17,695 autoreload 12728 14776 Watching for file changes with StatReloader
+INFO 2023-09-24 09:58:20,093 basehttp 12728 13016 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-09-24 09:58:20,543 basehttp 12728 5348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 09:58:21,401 basehttp 12728 14408 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-24 09:58:21,446 basehttp 12728 14408 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-24 09:58:21,491 basehttp 12728 14408 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-24 09:58:21,492 basehttp 12728 10364 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-24 09:58:21,498 basehttp 12728 14324 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-24 09:58:21,530 basehttp 12728 16156 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-24 09:58:21,542 basehttp 12728 14324 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-24 09:58:21,564 basehttp 12728 10364 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-24 09:58:21,571 basehttp 12728 14408 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-24 09:58:21,571 basehttp 12728 3272 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-24 09:58:21,617 basehttp 12728 5348 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-24 09:58:21,758 basehttp 12728 14408 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-24 09:58:21,832 basehttp 12728 14408 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+WARNING 2023-09-24 09:58:22,416 log 12728 14408 Not Found: /favicon.ico
+WARNING 2023-09-24 09:58:22,418 basehttp 12728 14408 "GET /favicon.ico HTTP/1.1" 404 2530
+INFO 2023-09-24 09:58:22,468 basehttp 12728 10448 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-09-24 09:58:24,461 basehttp 12728 14408 "GET /admin/auth/user/ HTTP/1.1" 200 11304
+INFO 2023-09-24 09:58:24,556 basehttp 12728 10364 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 09:58:24,559 basehttp 12728 14408 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-24 09:58:24,563 basehttp 12728 3272 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-24 09:58:24,573 basehttp 12728 5348 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-24 09:58:24,659 basehttp 12728 5348 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-24 09:58:24,760 basehttp 12728 5348 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-24 09:58:24,762 basehttp 12728 14408 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-24 09:58:24,891 basehttp 12728 10448 "GET /admin/auth/user/ HTTP/1.1" 200 11304
+INFO 2023-09-24 09:58:28,724 basehttp 12728 15160 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-09-24 09:58:28,780 basehttp 12728 15160 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 09:58:28,977 basehttp 12728 1448 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-09-24 09:58:47,516 basehttp 12728 9824 "POST /admin/auth/user/add/ HTTP/1.1" 200 11464
+INFO 2023-09-24 09:58:47,595 basehttp 12728 9824 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 09:58:47,751 basehttp 12728 8872 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-09-24 10:00:02,027 basehttp 12728 976 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 10:00:02,250 basehttp 12728 976 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23920
+INFO 2023-09-24 10:00:02,515 basehttp 12728 6876 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:00:02,596 basehttp 12728 14396 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-09-24 10:00:02,597 basehttp 12728 13656 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-24 10:00:02,604 basehttp 12728 15552 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-24 10:00:02,614 basehttp 12728 976 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-09-24 10:00:02,840 basehttp 12728 6184 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23624
+INFO 2023-09-24 10:00:02,862 basehttp 12728 13656 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-09-24 10:00:02,865 basehttp 12728 14396 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-09-24 10:00:02,869 basehttp 12728 6876 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-09-24 10:00:02,874 basehttp 12728 15552 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-09-24 10:00:02,887 basehttp 12728 976 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-09-24 10:04:56,988 basehttp 12728 9928 "GET /admin/auth/group/add/ HTTP/1.1" 200 13314
+INFO 2023-09-24 10:04:57,081 basehttp 12728 9928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:04:57,335 basehttp 12728 9660 "GET /admin/auth/group/add/ HTTP/1.1" 200 13314
+INFO 2023-09-24 10:06:02,623 basehttp 12728 14092 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 10:06:02,655 basehttp 12728 14092 "GET /admin/auth/group/ HTTP/1.1" 200 9114
+INFO 2023-09-24 10:06:02,746 basehttp 12728 14092 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:06:02,888 basehttp 12728 15104 "GET /admin/auth/group/ HTTP/1.1" 200 8901
+INFO 2023-09-24 10:06:05,726 basehttp 12728 14092 "GET /admin/auth/user/ HTTP/1.1" 200 11992
+INFO 2023-09-24 10:06:05,795 basehttp 12728 14092 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:06:05,798 basehttp 12728 14852 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-09-24 10:06:05,928 basehttp 12728 15104 "GET /admin/auth/user/ HTTP/1.1" 200 11992
+INFO 2023-09-24 10:06:06,920 basehttp 12728 11472 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23665
+INFO 2023-09-24 10:06:06,996 basehttp 12728 11472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:06:07,182 basehttp 12728 4176 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23665
+INFO 2023-09-24 10:06:15,658 basehttp 12728 11472 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-24 10:06:15,692 basehttp 12728 11472 "GET /admin/auth/user/ HTTP/1.1" 200 12226
+INFO 2023-09-24 10:06:15,763 basehttp 12728 11472 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:06:15,893 basehttp 12728 4176 "GET /admin/auth/user/ HTTP/1.1" 200 12006
+INFO 2023-09-24 10:06:17,370 basehttp 12728 10592 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23696
+INFO 2023-09-24 10:06:17,440 basehttp 12728 10592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:06:17,623 basehttp 12728 11680 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23696
+INFO 2023-09-24 10:21:54,880 basehttp 12728 6684 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-24 10:21:54,956 basehttp 12728 6684 "GET /admin/auth/user/ HTTP/1.1" 200 12226
+INFO 2023-09-24 10:21:55,227 basehttp 12728 6684 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:21:57,024 basehttp 12728 13000 "GET /admin/auth/user/ HTTP/1.1" 200 12006
+INFO 2023-09-24 10:22:02,664 basehttp 12728 10280 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-24 10:22:03,099 basehttp 12728 1816 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2023-09-24 10:22:03,171 basehttp 12728 1816 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 10:22:03,259 basehttp 12728 1816 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 10:22:06,090 basehttp 12728 12128 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 10:22:06,113 basehttp 12728 12128 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 10:22:06,414 basehttp 12728 1816 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 10:22:11,435 basehttp 12728 8884 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 10:22:11,480 basehttp 12728 8884 "GET /admin/ HTTP/1.1" 200 4807
+INFO 2023-09-24 10:22:11,551 basehttp 12728 8884 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-24 10:22:11,644 basehttp 12728 16128 "GET /admin/ HTTP/1.1" 200 4807
+INFO 2023-09-24 11:22:14,389 autoreload 16176 1848 Watching for file changes with StatReloader
+INFO 2023-09-24 11:22:44,088 basehttp 16176 2228 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-24 11:22:45,261 basehttp 16176 13508 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:22:45,279 basehttp 16176 13508 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:22:45,437 basehttp 16176 13508 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 11:22:46,412 basehttp 16176 2228 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:22:46,440 basehttp 16176 2228 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 11:22:46,671 basehttp 16176 13508 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 11:22:53,478 basehttp 16176 16184 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:22:53,564 basehttp 16176 16184 "GET /admin/ HTTP/1.1" 200 8204
+INFO 2023-09-24 11:22:53,771 basehttp 16176 13252 "GET /admin/ HTTP/1.1" 200 8204
+INFO 2023-09-24 11:22:54,722 basehttp 16176 16184 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-24 11:24:19,207 autoreload 16176 1848 D:\Python_django\lection\myproject\myapp3\admin.py changed, reloading.
+INFO 2023-09-24 11:24:22,336 autoreload 3660 4972 Watching for file changes with StatReloader
+INFO 2023-09-24 11:24:28,327 autoreload 3660 4972 D:\Python_django\lection\myproject\myapp3\admin.py changed, reloading.
+INFO 2023-09-24 11:24:31,090 autoreload 12460 13944 Watching for file changes with StatReloader
+INFO 2023-09-24 11:24:33,336 autoreload 12460 13944 D:\Python_django\lection\myproject\myapp3\admin.py changed, reloading.
+INFO 2023-09-24 11:24:36,151 autoreload 6972 10156 Watching for file changes with StatReloader
+INFO 2023-09-24 11:24:41,738 autoreload 6972 10156 D:\Python_django\lection\myproject\myapp3\admin.py changed, reloading.
+INFO 2023-09-24 11:24:43,611 autoreload 10848 13780 Watching for file changes with StatReloader
+INFO 2023-09-24 11:25:10,601 autoreload 10584 8928 Watching for file changes with StatReloader
+INFO 2023-09-24 11:25:14,088 basehttp 10584 13184 "GET /admin/ HTTP/1.1" 200 9319
+INFO 2023-09-24 11:25:14,784 basehttp 10584 7904 "GET /admin/ HTTP/1.1" 200 9319
+INFO 2023-09-24 11:29:50,473 basehttp 10584 13248 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-24 11:29:50,725 basehttp 10584 8504 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:29:50,754 basehttp 10584 8504 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:29:50,824 basehttp 10584 8504 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 11:29:52,035 basehttp 10584 13248 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:29:52,054 basehttp 10584 13248 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 11:29:52,255 basehttp 10584 8504 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 11:29:56,045 basehttp 10584 1048 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:29:56,108 basehttp 10584 1048 "GET /admin/ HTTP/1.1" 200 5346
+INFO 2023-09-24 11:29:56,386 basehttp 10584 2968 "GET /admin/ HTTP/1.1" 200 5346
+INFO 2023-09-24 11:30:21,233 basehttp 10584 14424 "GET /admin/myapp3/post/ HTTP/1.1" 200 17380
+INFO 2023-09-24 11:30:21,671 basehttp 10584 10920 "GET /admin/myapp3/post/ HTTP/1.1" 200 17380
+INFO 2023-09-24 11:30:32,976 basehttp 10584 5904 "GET /admin/myapp3/post/76/change/ HTTP/1.1" 200 10408
+INFO 2023-09-24 11:30:33,114 basehttp 10584 5904 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:30:33,229 basehttp 10584 11052 "GET /admin/myapp3/post/76/change/ HTTP/1.1" 200 10408
+INFO 2023-09-24 11:30:42,810 basehttp 10584 6376 "POST /admin/myapp3/post/76/change/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:30:42,882 basehttp 10584 6376 "GET /admin/myapp3/post/ HTTP/1.1" 200 17595
+INFO 2023-09-24 11:30:43,166 basehttp 10584 5580 "GET /admin/myapp3/post/ HTTP/1.1" 200 17380
+INFO 2023-09-24 11:31:14,338 basehttp 10584 11160 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-24 11:31:14,532 basehttp 10584 10432 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:31:14,542 basehttp 10584 10432 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:31:14,559 basehttp 10584 10432 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 11:31:15,631 basehttp 10584 6712 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:31:15,648 basehttp 10584 6712 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 11:31:15,778 basehttp 10584 10432 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 11:31:21,646 basehttp 10584 6712 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:31:21,675 basehttp 10584 6712 "GET /admin/ HTTP/1.1" 200 9319
+INFO 2023-09-24 11:31:21,833 basehttp 10584 10432 "GET /admin/ HTTP/1.1" 200 9319
+INFO 2023-09-24 11:32:42,427 basehttp 10584 8220 "GET /admin/myapp3/post/ HTTP/1.1" 200 31590
+INFO 2023-09-24 11:32:42,553 basehttp 10584 8220 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:32:43,003 basehttp 10584 8740 "GET /admin/myapp3/post/ HTTP/1.1" 200 31590
+INFO 2023-09-24 11:32:46,112 basehttp 10584 8348 "GET /admin/myapp3/post/95/change/ HTTP/1.1" 200 13612
+INFO 2023-09-24 11:32:46,217 basehttp 10584 14084 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:32:46,506 basehttp 10584 8912 "GET /admin/myapp3/post/95/change/ HTTP/1.1" 200 13612
+INFO 2023-09-24 11:32:46,510 basehttp 10584 8348 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-09-24 11:32:58,849 basehttp 10584 4180 "GET /admin/myapp5/category/ HTTP/1.1" 200 8980
+INFO 2023-09-24 11:32:58,943 basehttp 10584 4180 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:32:59,181 basehttp 10584 15660 "GET /admin/myapp5/category/ HTTP/1.1" 200 8980
+INFO 2023-09-24 11:33:11,416 basehttp 10584 3960 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 9821
+INFO 2023-09-24 11:33:11,493 basehttp 10584 3960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:33:11,647 basehttp 10584 14996 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 9821
+INFO 2023-09-24 11:34:29,173 basehttp 10584 14712 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:34:29,205 basehttp 10584 14712 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 10111
+INFO 2023-09-24 11:34:29,269 basehttp 10584 14712 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:34:29,402 basehttp 10584 10596 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 9821
+INFO 2023-09-24 11:34:34,025 basehttp 10584 9252 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:34:34,057 basehttp 10584 9252 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 10107
+INFO 2023-09-24 11:34:34,144 basehttp 10584 9252 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:34:34,297 basehttp 10584 2232 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 9821
+INFO 2023-09-24 11:34:38,497 basehttp 10584 9252 "GET /admin/myapp5/category/ HTTP/1.1" 200 10450
+INFO 2023-09-24 11:34:38,573 basehttp 10584 9252 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:34:38,723 basehttp 10584 2232 "GET /admin/myapp5/category/ HTTP/1.1" 200 10450
+INFO 2023-09-24 11:34:40,246 basehttp 10584 11036 "GET /admin/myapp5/product/ HTTP/1.1" 200 8973
+INFO 2023-09-24 11:34:40,368 basehttp 10584 11036 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:34:40,627 basehttp 10584 8948 "GET /admin/myapp5/product/ HTTP/1.1" 200 8973
+INFO 2023-09-24 11:34:42,679 basehttp 10584 11036 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11675
+INFO 2023-09-24 11:34:42,754 basehttp 10584 11036 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:34:42,975 basehttp 10584 8948 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11675
+INFO 2023-09-24 11:35:00,900 basehttp 10584 5856 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:35:00,935 basehttp 10584 5856 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11956
+INFO 2023-09-24 11:35:01,002 basehttp 10584 5856 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:35:01,169 basehttp 10584 2508 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11675
+INFO 2023-09-24 11:35:09,586 basehttp 10584 5856 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:35:09,627 basehttp 10584 5856 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11962
+INFO 2023-09-24 11:35:09,692 basehttp 10584 5856 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:35:09,850 basehttp 10584 2508 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11675
+INFO 2023-09-24 11:43:29,554 basehttp 10584 2256 "GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4478
+INFO 2023-09-24 11:43:29,835 basehttp 10584 2256 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:43:30,629 basehttp 10584 10280 "GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4478
+INFO 2023-09-24 11:43:33,077 basehttp 10584 2256 "POST /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 403
+INFO 2023-09-24 11:43:33,250 basehttp 10584 2256 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2023-09-24 11:44:06,124 basehttp 10584 2636 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:44:06,192 basehttp 10584 2636 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12003
+INFO 2023-09-24 11:44:06,396 basehttp 10584 2636 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:44:07,376 basehttp 10584 7684 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11720
+INFO 2023-09-24 11:44:23,166 basehttp 10584 13736 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:44:23,216 basehttp 10584 13736 "GET /admin/myapp5/product/ HTTP/1.1" 200 11077
+INFO 2023-09-24 11:44:23,308 basehttp 10584 13736 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:44:23,568 basehttp 10584 12120 "GET /admin/myapp5/product/ HTTP/1.1" 200 10861
+INFO 2023-09-24 11:44:42,782 basehttp 10584 10908 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 11936
+INFO 2023-09-24 11:44:42,864 basehttp 10584 10908 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:44:43,372 basehttp 10584 10208 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 11936
+INFO 2023-09-24 11:44:48,125 basehttp 10584 10908 "GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 9027
+INFO 2023-09-24 11:44:48,233 basehttp 10584 10908 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2023-09-24 11:44:48,287 basehttp 10584 10208 "GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 9027
+INFO 2023-09-24 11:45:22,072 basehttp 10584 6624 "POST /admin/myapp5/product/1/delete/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:45:22,109 basehttp 10584 6624 "GET /admin/myapp5/product/ HTTP/1.1" 200 10816
+INFO 2023-09-24 11:45:22,178 basehttp 10584 6624 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:45:22,294 basehttp 10584 2828 "GET /admin/myapp5/product/ HTTP/1.1" 200 10654
+INFO 2023-09-24 11:49:03,456 autoreload 10584 8928 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:07,127 autoreload 124 11876 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:10,893 autoreload 124 11876 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:12,459 autoreload 13956 8060 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:18,294 autoreload 13956 8060 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:19,389 autoreload 11988 16332 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:20,980 autoreload 11988 16332 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:22,131 autoreload 1416 5148 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:27,145 autoreload 1416 5148 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:29,394 autoreload 9608 3760 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:32,546 autoreload 9608 3760 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:34,717 autoreload 15732 4592 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:38,576 autoreload 15732 4592 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:39,679 autoreload 13416 14732 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:42,217 autoreload 13416 14732 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:43,084 autoreload 8852 13384 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:47,645 autoreload 8852 13384 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:48,819 autoreload 16276 6716 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:51,106 autoreload 16276 6716 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:52,498 autoreload 10276 2256 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:55,019 autoreload 10276 2256 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:49:56,288 autoreload 14736 13348 Watching for file changes with StatReloader
+INFO 2023-09-24 11:49:59,611 autoreload 14736 13348 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:01,658 autoreload 12128 12796 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:03,169 autoreload 12128 12796 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:04,200 autoreload 12888 10996 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:06,114 autoreload 12888 10996 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:07,559 autoreload 7300 8004 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:10,908 autoreload 7300 8004 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:12,936 autoreload 13960 5620 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:17,101 autoreload 13960 5620 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:18,242 autoreload 10720 15316 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:25,068 autoreload 10720 15316 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:25,871 autoreload 15724 3592 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:30,985 autoreload 15724 3592 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:32,360 autoreload 11884 14228 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:35,259 autoreload 11884 14228 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:36,187 autoreload 13272 7552 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:38,759 autoreload 13272 7552 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:39,872 autoreload 14492 11356 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:44,034 autoreload 14492 11356 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:44,977 autoreload 2332 10624 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:46,999 autoreload 2332 10624 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:48,334 autoreload 16132 12564 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:49,982 autoreload 16132 12564 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:51,166 autoreload 11036 5780 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:54,140 autoreload 11036 5780 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:50:55,225 autoreload 4536 2740 Watching for file changes with StatReloader
+INFO 2023-09-24 11:50:58,879 autoreload 4536 2740 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:51:00,424 autoreload 8848 13140 Watching for file changes with StatReloader
+INFO 2023-09-24 11:51:04,515 autoreload 8848 13140 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:51:06,369 autoreload 11796 13648 Watching for file changes with StatReloader
+INFO 2023-09-24 11:51:08,579 autoreload 11796 13648 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:51:09,877 autoreload 14732 11196 Watching for file changes with StatReloader
+INFO 2023-09-24 11:51:13,839 autoreload 14732 11196 D:\Python_django\lection\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-24 11:51:14,743 autoreload 3136 8504 Watching for file changes with StatReloader
+INFO 2023-09-24 11:51:36,844 autoreload 8044 13836 Watching for file changes with StatReloader
+INFO 2023-09-24 12:42:22,659 autoreload 7064 9200 Watching for file changes with StatReloader
+INFO 2023-09-24 12:42:32,061 basehttp 7064 4180 "GET /admin/myapp5/product/ HTTP/1.1" 200 10654
+INFO 2023-09-24 12:42:32,532 basehttp 7064 4180 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:42:33,193 basehttp 7064 11324 "GET /admin/myapp5/product/ HTTP/1.1" 200 10654
+INFO 2023-09-24 12:42:38,795 basehttp 7064 11192 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14492
+INFO 2023-09-24 12:42:38,896 basehttp 7064 11192 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:42:39,239 basehttp 7064 1688 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14492
+INFO 2023-09-24 12:43:18,731 basehttp 7064 11256 "POST /admin/myapp5/product/4/change/ HTTP/1.1" 302 0
+INFO 2023-09-24 12:43:18,794 basehttp 7064 11256 "GET /admin/myapp5/product/ HTTP/1.1" 200 10872
+INFO 2023-09-24 12:43:18,929 basehttp 7064 11256 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:43:19,082 basehttp 7064 10684 "GET /admin/myapp5/product/ HTTP/1.1" 200 10654
+INFO 2023-09-24 12:43:22,455 basehttp 7064 15184 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14492
+INFO 2023-09-24 12:43:22,525 basehttp 7064 15184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:43:22,710 basehttp 7064 984 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14492
+INFO 2023-09-24 12:43:24,331 basehttp 7064 15184 "GET /admin/myapp5/product/ HTTP/1.1" 200 10654
+INFO 2023-09-24 12:43:24,498 basehttp 7064 984 "GET /admin/myapp5/product/ HTTP/1.1" 200 10654
+INFO 2023-09-24 12:43:54,627 autoreload 7064 9200 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:43:55,640 autoreload 5232 2980 Watching for file changes with StatReloader
+INFO 2023-09-24 12:43:57,798 autoreload 5232 2980 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:43:58,777 autoreload 5980 13828 Watching for file changes with StatReloader
+INFO 2023-09-24 12:44:00,414 autoreload 5980 13828 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:44:04,461 autoreload 15072 8484 Watching for file changes with StatReloader
+INFO 2023-09-24 12:44:07,790 autoreload 15072 8484 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:44:10,069 autoreload 8896 12284 Watching for file changes with StatReloader
+INFO 2023-09-24 12:44:14,033 autoreload 8896 12284 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:44:15,274 autoreload 14636 3744 Watching for file changes with StatReloader
+INFO 2023-09-24 12:44:22,791 autoreload 14636 3744 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:44:25,351 autoreload 14948 4348 Watching for file changes with StatReloader
+INFO 2023-09-24 12:44:27,565 autoreload 14948 4348 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:44:28,682 autoreload 15344 3956 Watching for file changes with StatReloader
+INFO 2023-09-24 12:44:30,660 autoreload 15344 3956 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:44:32,188 autoreload 13184 7372 Watching for file changes with StatReloader
+INFO 2023-09-24 12:44:34,945 autoreload 13184 7372 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:44:36,336 autoreload 1044 12148 Watching for file changes with StatReloader
+INFO 2023-09-24 12:44:44,874 autoreload 1044 12148 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:44:47,864 autoreload 1608 14720 Watching for file changes with StatReloader
+INFO 2023-09-24 12:44:51,489 autoreload 1608 14720 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:44:52,620 autoreload 12572 8500 Watching for file changes with StatReloader
+INFO 2023-09-24 12:46:56,391 autoreload 12572 8500 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:46:58,204 autoreload 10216 6436 Watching for file changes with StatReloader
+INFO 2023-09-24 12:47:12,575 autoreload 10216 6436 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:47:16,078 autoreload 3744 5804 Watching for file changes with StatReloader
+INFO 2023-09-24 12:47:29,614 basehttp 3744 10524 "GET /admin/myapp5/product/ HTTP/1.1" 200 11194
+INFO 2023-09-24 12:47:30,135 basehttp 3744 10524 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:47:31,203 basehttp 3744 12220 "GET /admin/myapp5/product/ HTTP/1.1" 200 11194
+INFO 2023-09-24 12:47:41,843 basehttp 3744 11640 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 11602
+INFO 2023-09-24 12:47:41,992 basehttp 3744 11640 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:47:42,184 basehttp 3744 14900 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 11602
+INFO 2023-09-24 12:47:44,855 basehttp 3744 11640 "GET /admin/myapp5/product/?o=-1 HTTP/1.1" 200 11608
+INFO 2023-09-24 12:47:44,947 basehttp 3744 11640 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:47:45,104 basehttp 3744 14900 "GET /admin/myapp5/product/?o=-1 HTTP/1.1" 200 11608
+INFO 2023-09-24 12:47:46,666 basehttp 3744 4448 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 11602
+INFO 2023-09-24 12:47:46,784 basehttp 3744 4448 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:47:46,998 basehttp 3744 2764 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 11602
+INFO 2023-09-24 12:48:18,840 basehttp 3744 11824 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11294
+INFO 2023-09-24 12:48:18,924 basehttp 3744 11824 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:48:19,092 basehttp 3744 11160 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11294
+INFO 2023-09-24 12:48:48,535 autoreload 3744 5804 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:48:50,985 autoreload 12296 5552 Watching for file changes with StatReloader
+INFO 2023-09-24 12:49:01,415 autoreload 12296 5552 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:49:03,641 autoreload 10824 8124 Watching for file changes with StatReloader
+INFO 2023-09-24 12:49:08,776 autoreload 10824 8124 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:49:10,336 autoreload 8072 13544 Watching for file changes with StatReloader
+INFO 2023-09-24 12:49:19,586 basehttp 8072 11948 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11294
+INFO 2023-09-24 12:49:20,240 basehttp 8072 11948 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:49:20,523 basehttp 8072 1996 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11294
+INFO 2023-09-24 12:49:28,252 basehttp 8072 14148 "GET /admin/myapp5/product/ HTTP/1.1" 200 11984
+INFO 2023-09-24 12:49:28,384 basehttp 8072 14148 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:49:28,551 basehttp 8072 13732 "GET /admin/myapp5/product/ HTTP/1.1" 200 11984
+INFO 2023-09-24 12:54:48,907 autoreload 8072 13544 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:54:51,080 autoreload 7368 500 Watching for file changes with StatReloader
+INFO 2023-09-24 12:54:53,638 autoreload 7368 500 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:54:56,863 autoreload 6984 11848 Watching for file changes with StatReloader
+INFO 2023-09-24 12:55:00,656 autoreload 6984 11848 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:55:02,265 autoreload 5604 1452 Watching for file changes with StatReloader
+INFO 2023-09-24 12:55:33,250 basehttp 5604 6616 "GET /admin/myapp5/product/ HTTP/1.1" 200 13232
+INFO 2023-09-24 12:55:33,522 basehttp 5604 6616 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:55:34,493 basehttp 5604 6672 "GET /admin/myapp5/product/ HTTP/1.1" 200 13232
+INFO 2023-09-24 12:57:20,048 autoreload 5604 1452 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:57:25,777 autoreload 5308 13676 Watching for file changes with StatReloader
+INFO 2023-09-24 12:57:29,970 autoreload 5308 13676 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:57:32,579 autoreload 13764 13496 Watching for file changes with StatReloader
+INFO 2023-09-24 12:57:36,169 autoreload 13764 13496 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:57:38,061 autoreload 9500 11504 Watching for file changes with StatReloader
+INFO 2023-09-24 12:57:50,378 autoreload 9500 11504 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:57:52,458 autoreload 11400 9396 Watching for file changes with StatReloader
+INFO 2023-09-24 12:57:56,188 autoreload 11400 9396 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:57:57,802 autoreload 12112 8476 Watching for file changes with StatReloader
+INFO 2023-09-24 12:58:00,718 autoreload 12112 8476 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:58:02,435 autoreload 6568 13144 Watching for file changes with StatReloader
+INFO 2023-09-24 12:58:04,754 autoreload 6568 13144 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:58:06,263 autoreload 11300 6484 Watching for file changes with StatReloader
+INFO 2023-09-24 12:58:15,689 autoreload 11300 6484 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 12:58:17,730 autoreload 3884 9664 Watching for file changes with StatReloader
+INFO 2023-09-24 12:58:19,330 basehttp 3884 8324 "GET /admin/myapp5/product/ HTTP/1.1" 200 13726
+INFO 2023-09-24 12:58:19,759 basehttp 3884 8324 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:58:20,129 basehttp 3884 12024 "GET /admin/myapp5/product/ HTTP/1.1" 200 13726
+INFO 2023-09-24 12:58:57,205 basehttp 3884 3500 "GET /admin/myapp5/product/?q=fdsf HTTP/1.1" 200 11562
+INFO 2023-09-24 12:58:57,315 basehttp 3884 3500 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:58:57,506 basehttp 3884 1300 "GET /admin/myapp5/product/?q=fdsf HTTP/1.1" 200 11562
+INFO 2023-09-24 12:59:17,272 basehttp 3884 7476 "GET /admin/myapp5/product/ HTTP/1.1" 200 13726
+INFO 2023-09-24 12:59:17,393 basehttp 3884 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:59:17,550 basehttp 3884 15660 "GET /admin/myapp5/product/ HTTP/1.1" 200 13726
+INFO 2023-09-24 12:59:18,885 basehttp 3884 7476 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 14468
+INFO 2023-09-24 12:59:18,969 basehttp 3884 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:59:19,135 basehttp 3884 15660 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 14468
+INFO 2023-09-24 12:59:29,555 basehttp 3884 11748 "POST /admin/myapp5/product/3/change/ HTTP/1.1" 302 0
+INFO 2023-09-24 12:59:29,600 basehttp 3884 11748 "GET /admin/myapp5/product/ HTTP/1.1" 200 13938
+INFO 2023-09-24 12:59:29,683 basehttp 3884 11748 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:59:29,952 basehttp 3884 13944 "GET /admin/myapp5/product/ HTTP/1.1" 200 13726
+INFO 2023-09-24 12:59:35,353 basehttp 3884 3456 "GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81 HTTP/1.1" 200 13826
+INFO 2023-09-24 12:59:35,436 basehttp 3884 3456 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 12:59:35,556 basehttp 3884 11596 "GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81 HTTP/1.1" 200 13826
+INFO 2023-09-24 13:01:22,081 autoreload 3884 9664 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:01:27,119 autoreload 16340 12000 Watching for file changes with StatReloader
+INFO 2023-09-24 13:01:29,806 autoreload 16340 12000 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:01:32,926 autoreload 9436 13156 Watching for file changes with StatReloader
+INFO 2023-09-24 13:01:41,697 autoreload 9436 13156 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:01:43,440 autoreload 15420 4920 Watching for file changes with StatReloader
+INFO 2023-09-24 13:01:45,950 autoreload 15420 4920 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:01:48,300 autoreload 10928 12972 Watching for file changes with StatReloader
+INFO 2023-09-24 13:01:51,964 autoreload 10928 12972 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:01:53,009 autoreload 1968 11316 Watching for file changes with StatReloader
+INFO 2023-09-24 13:01:58,986 autoreload 1968 11316 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:02:00,444 autoreload 6728 11728 Watching for file changes with StatReloader
+INFO 2023-09-24 13:02:02,345 autoreload 6728 11728 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:02:03,410 autoreload 3780 11788 Watching for file changes with StatReloader
+INFO 2023-09-24 13:02:04,868 autoreload 3780 11788 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:02:06,270 autoreload 10156 9612 Watching for file changes with StatReloader
+INFO 2023-09-24 13:02:09,859 autoreload 10156 9612 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:02:11,024 autoreload 11804 10200 Watching for file changes with StatReloader
+INFO 2023-09-24 13:02:19,481 autoreload 11804 10200 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:02:20,641 autoreload 13728 4396 Watching for file changes with StatReloader
+INFO 2023-09-24 13:02:32,736 autoreload 13728 4396 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:02:34,464 autoreload 14108 15192 Watching for file changes with StatReloader
+INFO 2023-09-24 13:02:37,977 autoreload 14108 15192 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:02:41,270 autoreload 13212 4912 Watching for file changes with StatReloader
+INFO 2023-09-24 13:05:17,172 autoreload 13212 4912 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:05:26,276 autoreload 8916 14308 Watching for file changes with StatReloader
+INFO 2023-09-24 13:05:59,895 autoreload 14316 12556 Watching for file changes with StatReloader
+INFO 2023-09-24 13:06:06,729 basehttp 14316 15832 "GET /admin/myapp5/product/ HTTP/1.1" 200 13819
+INFO 2023-09-24 13:06:07,673 basehttp 14316 15832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 13:06:09,131 basehttp 14316 13544 "GET /admin/myapp5/product/ HTTP/1.1" 200 13819
+INFO 2023-09-24 13:06:21,861 basehttp 14316 4804 "POST /admin/myapp5/product/ HTTP/1.1" 302 0
+INFO 2023-09-24 13:06:21,911 basehttp 14316 4804 "GET /admin/myapp5/product/ HTTP/1.1" 200 13817
+INFO 2023-09-24 13:06:21,993 basehttp 14316 4804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 13:06:22,205 basehttp 14316 4192 "GET /admin/myapp5/product/ HTTP/1.1" 200 13817
+INFO 2023-09-24 13:08:52,393 basehttp 14316 12864 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14490
+INFO 2023-09-24 13:08:52,497 basehttp 14316 12864 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 13:08:53,113 basehttp 14316 6456 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14490
+INFO 2023-09-24 13:10:37,877 autoreload 14316 12556 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:10:41,792 autoreload 9396 12300 Watching for file changes with StatReloader
+INFO 2023-09-24 13:10:47,519 autoreload 9396 12300 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:10:51,383 autoreload 4808 9752 Watching for file changes with StatReloader
+INFO 2023-09-24 13:10:57,134 autoreload 4808 9752 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:11:00,421 autoreload 9028 15660 Watching for file changes with StatReloader
+INFO 2023-09-24 13:11:04,584 autoreload 9028 15660 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:11:06,836 autoreload 12148 2684 Watching for file changes with StatReloader
+INFO 2023-09-24 13:11:09,712 autoreload 12148 2684 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:11:14,475 autoreload 1284 12800 Watching for file changes with StatReloader
+INFO 2023-09-24 13:11:17,146 autoreload 1284 12800 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:11:19,212 autoreload 7968 11336 Watching for file changes with StatReloader
+INFO 2023-09-24 13:11:23,523 autoreload 7968 11336 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:11:24,598 autoreload 15888 5552 Watching for file changes with StatReloader
+INFO 2023-09-24 13:11:28,402 autoreload 15888 5552 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:11:30,423 autoreload 13328 10140 Watching for file changes with StatReloader
+INFO 2023-09-24 13:11:32,403 autoreload 13328 10140 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:11:33,322 autoreload 8860 15624 Watching for file changes with StatReloader
+INFO 2023-09-24 13:11:35,547 autoreload 8860 15624 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:11:39,198 autoreload 8068 13392 Watching for file changes with StatReloader
+INFO 2023-09-24 13:13:16,439 basehttp 8068 2076 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 13714
+INFO 2023-09-24 13:13:16,869 basehttp 8068 2076 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 13:13:17,202 basehttp 8068 10344 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 13714
+INFO 2023-09-24 13:14:29,861 autoreload 8068 13392 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:14:32,595 autoreload 9660 2764 Watching for file changes with StatReloader
+INFO 2023-09-24 13:14:35,966 autoreload 9660 2764 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:14:38,971 autoreload 8272 14068 Watching for file changes with StatReloader
+INFO 2023-09-24 13:14:41,807 autoreload 8272 14068 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:14:45,575 autoreload 12228 8184 Watching for file changes with StatReloader
+INFO 2023-09-24 13:14:55,529 autoreload 12228 8184 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:14:59,596 autoreload 10452 3872 Watching for file changes with StatReloader
+INFO 2023-09-24 13:15:05,855 autoreload 10452 3872 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:15:08,349 autoreload 11800 7096 Watching for file changes with StatReloader
+INFO 2023-09-24 13:15:10,636 autoreload 11800 7096 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:15:12,148 autoreload 15180 10852 Watching for file changes with StatReloader
+INFO 2023-09-24 13:15:16,159 autoreload 15180 10852 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:15:17,205 autoreload 14072 16208 Watching for file changes with StatReloader
+INFO 2023-09-24 13:15:24,613 autoreload 14072 16208 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:15:25,802 autoreload 13840 6440 Watching for file changes with StatReloader
+INFO 2023-09-24 13:15:29,234 autoreload 13840 6440 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:15:30,021 autoreload 9564 15456 Watching for file changes with StatReloader
+INFO 2023-09-24 13:15:39,606 autoreload 9564 15456 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:15:40,697 autoreload 15924 13664 Watching for file changes with StatReloader
+INFO 2023-09-24 13:15:49,893 autoreload 15924 13664 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:15:52,719 autoreload 13464 7164 Watching for file changes with StatReloader
+INFO 2023-09-24 13:16:49,572 autoreload 13464 7164 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:16:53,315 autoreload 1848 13656 Watching for file changes with StatReloader
+INFO 2023-09-24 13:16:57,104 autoreload 1848 13656 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:16:58,978 autoreload 11240 4972 Watching for file changes with StatReloader
+INFO 2023-09-24 13:17:01,604 autoreload 11240 4972 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:17:04,802 autoreload 1864 8440 Watching for file changes with StatReloader
+INFO 2023-09-24 13:17:07,143 autoreload 1864 8440 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:17:11,460 autoreload 6204 1164 Watching for file changes with StatReloader
+INFO 2023-09-24 13:17:14,349 autoreload 6204 1164 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:17:15,868 autoreload 12116 10156 Watching for file changes with StatReloader
+INFO 2023-09-24 13:17:17,556 autoreload 12116 10156 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:17:18,443 autoreload 11572 9028 Watching for file changes with StatReloader
+INFO 2023-09-24 13:17:21,006 autoreload 11572 9028 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:17:22,199 autoreload 1476 4024 Watching for file changes with StatReloader
+INFO 2023-09-24 13:17:30,173 autoreload 1476 4024 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:17:31,370 autoreload 7012 10728 Watching for file changes with StatReloader
+INFO 2023-09-24 13:17:33,484 autoreload 7012 10728 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:17:35,109 autoreload 9448 10640 Watching for file changes with StatReloader
+INFO 2023-09-24 13:17:40,658 autoreload 9448 10640 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:17:52,148 autoreload 260 14900 Watching for file changes with StatReloader
+INFO 2023-09-24 13:17:55,320 autoreload 260 14900 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:17:57,669 autoreload 2732 5040 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:00,998 autoreload 2732 5040 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:18:02,163 autoreload 5936 5820 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:03,888 autoreload 5936 5820 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:18:05,441 autoreload 15284 9432 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:08,192 autoreload 15284 9432 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:18:09,583 autoreload 9456 9664 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:13,591 autoreload 9456 9664 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:18:15,000 autoreload 1048 3876 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:20,898 autoreload 1048 3876 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:18:21,781 autoreload 10908 14068 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:32,468 autoreload 10908 14068 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:18:34,654 autoreload 7692 5856 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:36,730 autoreload 7692 5856 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:18:37,750 autoreload 10108 11708 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:42,564 autoreload 10108 11708 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:18:43,707 autoreload 10828 4736 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:45,519 autoreload 10828 4736 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:18:46,852 autoreload 14148 2488 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:48,903 autoreload 14148 2488 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:18:51,456 autoreload 11296 12804 Watching for file changes with StatReloader
+INFO 2023-09-24 13:18:58,241 autoreload 11296 12804 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:19:00,908 autoreload 15740 7552 Watching for file changes with StatReloader
+INFO 2023-09-24 13:19:05,583 autoreload 15740 7552 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:19:12,595 autoreload 6124 8384 Watching for file changes with StatReloader
+INFO 2023-09-24 13:20:16,832 autoreload 6124 8384 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:20:19,959 autoreload 5344 12416 Watching for file changes with StatReloader
+INFO 2023-09-24 13:20:25,335 autoreload 5344 12416 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:20:29,608 autoreload 1608 11664 Watching for file changes with StatReloader
+INFO 2023-09-24 13:20:36,024 autoreload 1608 11664 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:20:38,450 autoreload 16004 13248 Watching for file changes with StatReloader
+INFO 2023-09-24 13:20:40,650 autoreload 16004 13248 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:20:42,091 autoreload 5508 8308 Watching for file changes with StatReloader
+INFO 2023-09-24 13:20:46,907 autoreload 5508 8308 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:20:48,751 autoreload 10760 12024 Watching for file changes with StatReloader
+INFO 2023-09-24 13:20:53,671 autoreload 10760 12024 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:20:55,205 autoreload 2620 8964 Watching for file changes with StatReloader
+INFO 2023-09-24 13:20:57,431 autoreload 2620 8964 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:20:58,400 autoreload 12024 9244 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:00,591 autoreload 12024 9244 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:21:02,670 autoreload 11240 13940 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:06,492 autoreload 11240 13940 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:21:07,499 autoreload 9516 13472 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:11,556 autoreload 9516 13472 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:21:12,400 autoreload 11308 13556 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:15,372 autoreload 11308 13556 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:21:16,816 autoreload 6516 4696 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:19,020 autoreload 6516 4696 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:21:20,708 autoreload 124 10840 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:22,701 autoreload 124 10840 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:21:23,945 autoreload 8440 8284 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:27,877 autoreload 8440 8284 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:21:30,958 autoreload 4120 5904 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:38,117 autoreload 4120 5904 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:21:39,220 autoreload 3456 12000 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:47,417 autoreload 3456 12000 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:21:52,486 autoreload 11908 13852 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:55,052 autoreload 11908 13852 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:21:57,844 autoreload 11824 13256 Watching for file changes with StatReloader
+INFO 2023-09-24 13:21:59,670 autoreload 11824 13256 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:22:00,887 autoreload 5936 7496 Watching for file changes with StatReloader
+INFO 2023-09-24 13:22:02,800 autoreload 5936 7496 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:22:03,571 autoreload 3192 7604 Watching for file changes with StatReloader
+INFO 2023-09-24 13:22:07,642 autoreload 3192 7604 D:\Python_django\lection\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-24 13:22:08,896 autoreload 11748 13344 Watching for file changes with StatReloader
+INFO 2023-09-24 13:22:49,665 basehttp 11748 11844 "GET /admin/myapp5/product/ HTTP/1.1" 200 13817
+INFO 2023-09-24 13:22:50,457 basehttp 11748 11844 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 13:22:52,431 basehttp 11748 15916 "GET /admin/myapp5/product/ HTTP/1.1" 200 13817
+INFO 2023-09-24 13:22:52,562 basehttp 11748 12664 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15620
+INFO 2023-09-24 13:22:52,737 basehttp 11748 12664 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 13:22:53,149 basehttp 11748 15700 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-24 13:22:53,266 basehttp 11748 15916 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15620
