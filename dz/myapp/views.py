@@ -1,5 +1,3 @@
-import logging
-
 from django.http import HttpResponse
 from django.views import View
 from django.views.generic import TemplateView, ListView
@@ -10,16 +8,12 @@ from django.core.files.storage import FileSystemStorage
 
 from .models import Client, Product, Order
 
-logger = logging.getLogger(__name__)
-
 
 def index(request):
-    logger.info('Index page accessed')
     return HttpResponse("Hello, world!")
 
 
 def about(request):
-    logger.debug('About page accessed')
     return HttpResponse("This is the about page.")
 
 
