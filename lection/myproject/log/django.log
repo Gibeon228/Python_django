@@ -1509,3 +1509,53 @@ INFO 2023-09-24 13:22:52,562 basehttp 11748 12664 "GET /admin/myapp5/product/2/c
 INFO 2023-09-24 13:22:52,737 basehttp 11748 12664 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2023-09-24 13:22:53,149 basehttp 11748 15700 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
 INFO 2023-09-24 13:22:53,266 basehttp 11748 15916 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15620
+INFO 2023-09-28 11:22:28,206 autoreload 1868 11024 Watching for file changes with StatReloader
+INFO 2023-09-28 11:22:33,913 basehttp 1868 10228 "GET / HTTP/1.1" 200 10085
+INFO 2023-09-28 11:22:34,287 basehttp 1868 10228 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-09-28 11:22:34,297 basehttp 1868 3200 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-09-28 11:22:34,517 basehttp 1868 10228 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-09-28 11:22:34,587 basehttp 1868 10228 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2023-09-28 11:22:35,331 log 1868 10228 Not Found: /favicon.ico
+WARNING 2023-09-28 11:22:35,467 basehttp 1868 10228 "GET /favicon.ico HTTP/1.1" 404 12407
+INFO 2023-09-28 11:22:37,714 basehttp 1868 11716 "GET / HTTP/1.1" 200 10087
+INFO 2023-09-28 11:23:08,262 basehttp 1868 5128 "GET /__debug__/render_panel/?store_id=9277a2f416514267afeda5c791c2a89e&panel_id=HistoryPanel HTTP/1.1" 200 5784
+INFO 2023-09-28 11:23:08,291 basehttp 1868 5128 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-09-28 14:23:26,528 autoreload 9688 11648 Watching for file changes with StatReloader
+INFO 2023-09-28 14:23:40,820 basehttp 9688 4792 "GET / HTTP/1.1" 200 10089
+INFO 2023-09-28 14:23:41,355 basehttp 9688 2640 "GET / HTTP/1.1" 200 10087
+WARNING 2023-09-28 14:23:58,835 log 9688 2632 Not Found: /les6
+WARNING 2023-09-28 14:23:58,837 basehttp 9688 2632 "GET /les6 HTTP/1.1" 404 12484
+INFO 2023-09-28 14:23:58,999 basehttp 9688 2632 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-28 14:23:59,001 basehttp 9688 6072 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-28 14:23:59,051 basehttp 9688 6072 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-28 14:23:59,129 basehttp 9688 6072 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2023-09-28 14:23:59,470 log 9688 12656 Not Found: /les6
+WARNING 2023-09-28 14:23:59,471 basehttp 9688 12656 "GET /les6 HTTP/1.1" 404 12483
+INFO 2023-09-28 14:24:20,510 basehttp 9688 3696 "GET /les6/db HTTP/1.1" 301 0
+INFO 2023-09-28 14:24:21,212 basehttp 9688 4716 "GET /les6/db/ HTTP/1.1" 200 10211
+INFO 2023-09-28 14:24:21,448 basehttp 9688 13772 "GET /les6/db/ HTTP/1.1" 200 10209
+INFO 2023-09-28 14:24:40,491 basehttp 9688 5020 "GET /les6/db/ HTTP/1.1" 200 10651
+INFO 2023-09-28 14:24:40,683 basehttp 9688 10464 "GET /les6/db/ HTTP/1.1" 200 10651
+INFO 2023-09-28 14:24:55,587 autoreload 9688 11648 D:\Python_django\lection\myproject\myapp6\urls.py changed, reloading.
+INFO 2023-09-28 14:25:01,463 autoreload 11288 2956 Watching for file changes with StatReloader
+INFO 2023-09-28 14:25:40,330 basehttp 11288 13008 "GET /__debug__/render_panel/?store_id=266a021e7af1454cbb2a641e0655dc7a&panel_id=SQLPanel HTTP/1.1" 200 531
+INFO 2023-09-28 14:25:51,393 basehttp 11288 13904 "GET /les6/db/ HTTP/1.1" 200 10654
+INFO 2023-09-28 14:25:51,812 basehttp 11288 10100 "GET /les6/db/ HTTP/1.1" 200 10651
+INFO 2023-09-28 14:25:53,855 basehttp 11288 13904 "GET /__debug__/render_panel/?store_id=43dac9d632e545ba935b90079b1b34e4&panel_id=SQLPanel HTTP/1.1" 200 5324
+INFO 2023-09-28 14:26:10,234 basehttp 11288 12624 "GET /les6/view HTTP/1.1" 200 10834
+INFO 2023-09-28 14:26:10,473 basehttp 11288 12732 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2023-09-28 14:26:10,509 basehttp 11288 10176 "GET /les6/view HTTP/1.1" 200 10833
+INFO 2023-09-28 14:26:12,916 basehttp 11288 12732 "GET /les6/view/ HTTP/1.1" 200 10637
+INFO 2023-09-28 14:26:13,590 basehttp 11288 9368 "GET /les6/view/ HTTP/1.1" 200 10637
+WARNING 2023-09-28 14:26:36,377 log 11288 14088 Not Found: /les6/templatess
+WARNING 2023-09-28 14:26:36,378 basehttp 11288 14088 "GET /les6/templatess HTTP/1.1" 404 13379
+WARNING 2023-09-28 14:26:36,722 log 11288 7180 Not Found: /les6/templatess
+WARNING 2023-09-28 14:26:36,723 basehttp 11288 7180 "GET /les6/templatess HTTP/1.1" 404 13380
+WARNING 2023-09-28 14:26:40,732 log 11288 5140 Not Found: /les6/templates
+WARNING 2023-09-28 14:26:40,734 basehttp 11288 5140 "GET /les6/templates HTTP/1.1" 404 13375
+WARNING 2023-09-28 14:26:42,461 log 11288 7856 Not Found: /les6/templates
+WARNING 2023-09-28 14:26:42,467 basehttp 11288 7856 "GET /les6/templates HTTP/1.1" 404 13376
+INFO 2023-09-28 14:26:45,142 basehttp 11288 6848 "GET /les6/template HTTP/1.1" 200 10845
+INFO 2023-09-28 14:26:45,421 basehttp 11288 3736 "GET /les6/template HTTP/1.1" 200 10845
+INFO 2023-09-28 14:26:47,330 basehttp 11288 11396 "GET /les6/template/ HTTP/1.1" 200 10642
+INFO 2023-09-28 14:26:48,102 basehttp 11288 14144 "GET /les6/template/ HTTP/1.1" 200 10642
